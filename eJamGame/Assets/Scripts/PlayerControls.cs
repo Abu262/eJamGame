@@ -105,7 +105,7 @@ public class PlayerControls : MonoBehaviour
     }
 
 
-
+    //once you click on an object, you cant move or anything until its done
     IEnumerator click(ItemClass IC)
     {
         busy = true;

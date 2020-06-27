@@ -14,7 +14,7 @@ public class MouseLook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked; 
+
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class MouseLook : MonoBehaviour
     {
         if (!PC.busy)
         {
-
+        Cursor.lockState = CursorLockMode.Locked;
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitiviy * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitiviy * Time.deltaTime;
 
@@ -32,6 +32,10 @@ public class MouseLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
 
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
