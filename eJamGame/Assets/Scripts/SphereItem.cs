@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Fungus;
 public class SphereItem : ItemClass
 {
     [System.NonSerialized()]
     private MonoBehaviour _owner;
+    public Flowchart flowchart;
     // Start is called before the first frame update
     void Start()
     {
-        name = "Sphere";
+        
+    
+    name = "Sphere";
         ID = 0;
     }
 
@@ -24,7 +27,14 @@ public class SphereItem : ItemClass
     {
         Debug.Log("This is an override!");
 
-        yield return StartCoroutine(test());
+        flowchart.SetIntegerVariable("myInt", 2);
+        flowchart.ExecuteBlock("Start");
+
+        while (flowchart.GetIntegerVariable("myInt") == 2)
+        {
+            yield return null;
+        }
+
         yield return null;
     }
 

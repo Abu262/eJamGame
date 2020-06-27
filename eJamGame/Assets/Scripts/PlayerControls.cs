@@ -42,65 +42,69 @@ public class PlayerControls : MonoBehaviour
         //continuously shoots a raycast
 
         if (!busy)
-        { 
-        RaycastHit hit;
-        if (Physics.Raycast(
-                Camera.main.transform.position,
-                Camera.main.transform.forward,
-                out hit,
-                20f
-            ))
         {
-            //if we hit an item display the item
-            if (hit.collider.tag == "Item")
+            RaycastHit hit;
+            if (Physics.Raycast(
+                    Camera.main.transform.position,
+                    Camera.main.transform.forward,
+                    out hit,
+                    20f
+                ))
             {
-                T.text = hit.transform.gameObject.GetComponent<ItemClass>().name;
+                //if we hit an item display the item
+                if (hit.collider.tag == "Item")
+                {
+                    T.text = hit.transform.gameObject.GetComponent<ItemClass>().name;
+                }
+                else
+                {
+                    T.text = "";
+                }
             }
             else
             {
                 T.text = "";
             }
-        }
-        else
-        {
-            T.text = "";
-        }
 
 
-        //movement controls
-        if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
-        }
-
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-
-        Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move * speed * Time.deltaTime);
-        velocity.y += gravity + Time.deltaTime;
-        controller.Move(velocity * Time.deltaTime);
-
-        if (isGrounded)
-        {
-            //if we are on the ground then you can click on object to interact with them
-            if (Input.GetMouseButtonDown(0))
+            //movement controls
+            if (isGrounded && velocity.y < 0)
             {
-                RaycastHit hit2;
-                if (Physics.Raycast(
-                        Camera.main.transform.position,
-                        Camera.main.transform.forward,
-                        out hit2,
-                        20f
-                    ))
-                {
-                    Debug.Log("HIT");
+                velocity.y = -2f;
+            }
 
-                    StartCoroutine(click(hit2.transform.gameObject.GetComponent<ItemClass>()));
-                   
+            float x = Input.GetAxis("Horizontal");
+            float z = Input.GetAxis("Vertical");
+
+            Vector3 move = transform.right * x + transform.forward * z;
+            controller.Move(move * speed * Time.deltaTime);
+            velocity.y += gravity + Time.deltaTime;
+            controller.Move(velocity * Time.deltaTime);
+
+            if (isGrounded)
+            {
+                //if we are on the ground then you can click on object to interact with them
+                if (Input.GetMouseButtonDown(0))
+                {
+                    RaycastHit hit2;
+                    if (Physics.Raycast(
+                            Camera.main.transform.position,
+                            Camera.main.transform.forward,
+                            out hit2,
+                            20f
+                        ))
+                    {
+                        if (hit2.collider.tag == "Item")
+                        {
+                            Debug.Log("HIT");
+
+                            StartCoroutine(click(hit2.transform.gameObject.GetComponent<ItemClass>()));
+                        }
+
+
+                    }
                 }
             }
-        }
         }
     }
 
