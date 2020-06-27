@@ -2,13 +2,18 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+[Ll]ibrary/
+[Tt]emp/
+Oo]bj/
+
+# this part is important because if this is not done, .bank files from FMOD will not be included.
+![Bb]uild/
+[Bb]uild/*
+![Bb]uild/*.bank
+
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -57,4 +62,17 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# FMOD
+eJamGame/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
+eJamGame/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset.meta
+eJamGame/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+FMODStudioCache.asset
+FMODStudioCache.asset.meta
+
+
+eJam2020_FMOD/eJam2020/.cache/*
+fmod_editor.log
+
+eJam2020_FMOD/eJam2020/Build
 
