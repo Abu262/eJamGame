@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
-public class bloodypaperweight : ItemClass
+public class Bobby : ItemClass
 {
     public Flowchart flowchart;
     // Start is called before the first frame update
     void Start()
     {
-        name = "Bloody Paper Weight";
-        ID = 0;
+        name = "Bobby";
+        ID = 11;
     }
 
     // Update is called once per frame
@@ -17,10 +17,15 @@ public class bloodypaperweight : ItemClass
     {
 
     }
-
     public override IEnumerator Interact()
     {
+        flowchart.SetIntegerVariable("myInt", 11);
+        flowchart.ExecuteBlock("Start");
 
+        while (flowchart.GetIntegerVariable("myInt") == 11)
+        {
+            yield return null;
+        }
 
         yield return null;
     }
