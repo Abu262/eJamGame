@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
+  HasSourceProject: 0
+  HasPlatforms: 0
   sourceProjectPath: ../eJam2020_FMOD/eJam2020/eJam2020.fspro
-  sourceBankPath: ..\eJam2020_FMOD\eJam2020\Build
+  sourceBankPath: ../eJam2020_FMOD/eJam2020/Build/Desktop
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
