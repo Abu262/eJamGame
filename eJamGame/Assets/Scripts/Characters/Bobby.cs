@@ -2,38 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
-
-public class AnniesItem : ItemClass
+public class Bobby : ItemClass
 {
     public Flowchart flowchart;
     // Start is called before the first frame update
     void Start()
     {
-        name = "mushroom";
+        name = "Bobby";
+        ID = 11;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
 
-    IEnumerator test()
-    {
-        if (flowchart.GetFloatVariable("someInt") > 3)
-        {
-        }
-        yield return null;
     }
-
     public override IEnumerator Interact()
     {
-        Debug.Log("This is an override!");
-
-        flowchart.SetIntegerVariable("myInt", 2);
+        flowchart.SetIntegerVariable("myInt", 11);
         flowchart.ExecuteBlock("Start");
 
-        while (flowchart.GetIntegerVariable("myInt") == 2)
+        while (flowchart.GetIntegerVariable("myInt") == 11)
         {
             yield return null;
         }

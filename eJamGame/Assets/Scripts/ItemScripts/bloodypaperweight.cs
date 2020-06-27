@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Fungus;
 public class bloodypaperweight : ItemClass
 {
+    public Flowchart flowchart;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class bloodypaperweight : ItemClass
 
     public override IEnumerator Interact()
     {
-        Debug.Log("Its a paper weight");
+
 
         yield return null;
     }
