@@ -14,6 +14,13 @@ public class bloodypaperweight : ItemClass
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public override IEnumerator Interact()
+    {
+        Debug.Log("Its a paper weight");
+
+        yield return null;
     }
 }
