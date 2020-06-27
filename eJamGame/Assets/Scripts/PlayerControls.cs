@@ -41,8 +41,12 @@ public class PlayerControls : MonoBehaviour
         {
             if (hit.collider.tag == "Item")
             {
-                Debug.Log("HIT");
+          
                 T.text = hit.transform.gameObject.GetComponent<ItemClass>().name;
+            }
+            else
+            {
+                T.text = "";
             }
 
 
