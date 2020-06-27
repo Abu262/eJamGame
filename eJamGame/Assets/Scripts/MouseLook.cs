@@ -7,7 +7,7 @@ public class MouseLook : MonoBehaviour
     public float mouseSensitiviy = 100f;
 
     public Transform playerBody;
-
+    public PlayerControls PC;
     float xRotation = 0f;
 
 
@@ -20,6 +20,9 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!PC.busy)
+        {
+
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitiviy * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitiviy * Time.deltaTime;
 
@@ -28,5 +31,7 @@ public class MouseLook : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
+
+        }
     }
 }
