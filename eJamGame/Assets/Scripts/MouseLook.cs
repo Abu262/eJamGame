@@ -9,12 +9,11 @@ public class MouseLook : MonoBehaviour
     public Transform playerBody;
     public PlayerControls PC;
     float xRotation = 0f;
-    public Shader S;
-    public Camera C;
+
     // Start is called before the first frame update
     void Start()
     {
-        C.RenderWithShader(S, "RenderType");
+
     }
 
     // Update is called once per frame

@@ -1,7 +1,8 @@
-﻿Shader "Custom/CelShadingForward" {
+﻿Shader "Custom/SurfaceShading"
+{
 	Properties{
-		_Color("Color", Color) = (1, 1, 1, 1)
-		_MainTex("Albedo (RGB)", 2D) = "white" {}
+		   _Color("Color", Color) = (1, 1, 1, 1)
+		   _MainTex("Albedo (RGB)", 2D) = "white" {}
 	}
 		SubShader{
 			Tags {
@@ -13,7 +14,8 @@
 
 			half4 LightingCelShadingForward(SurfaceOutput s, half3 lightDir, half atten) {
 				half NdotL = dot(s.Normal, lightDir);
-				NdotL = smoothstep(0, 0.025f, NdotL);
+				if (NdotL <= 0.0) NdotL = 0;
+				else NdotL = 1;
 				half4 c;
 				c.rgb = s.Albedo * _LightColor0.rgb * (NdotL * atten * 2);
 				c.a = s.Alpha;
