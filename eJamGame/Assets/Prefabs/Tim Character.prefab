@@ -265,7 +265,6 @@ GameObject:
   - component: {fileID: 336402891}
   - component: {fileID: 336402892}
   - component: {fileID: 336402893}
-  - component: {fileID: 336402900}
   - component: {fileID: 336402901}
   - component: {fileID: 336402940}
   - component: {fileID: 336402939}
@@ -305,6 +304,24 @@ GameObject:
   - component: {fileID: 336402904}
   - component: {fileID: 336402903}
   - component: {fileID: 336402902}
+  - component: {fileID: 336402864}
+  - component: {fileID: 336402863}
+  - component: {fileID: 336402862}
+  - component: {fileID: 336402860}
+  - component: {fileID: 336402876}
+  - component: {fileID: 336402875}
+  - component: {fileID: 336402874}
+  - component: {fileID: 336402873}
+  - component: {fileID: 336402872}
+  - component: {fileID: 336402871}
+  - component: {fileID: 2412522333208132853}
+  - component: {fileID: 8218157978271362895}
+  - component: {fileID: 336402879}
+  - component: {fileID: 336402878}
+  - component: {fileID: 336402877}
+  - component: {fileID: 4893294507983668081}
+  - component: {fileID: 8447998354890463745}
+  - component: {fileID: 5177303613705554282}
   m_Layer: 0
   m_Name: Tim Flowchart
   m_TagString: Untagged
@@ -339,11 +356,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 589.9742, y: -227.91972}
+  scrollPos: {x: 297.37805, y: 89.94873}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 385
-  zoom: 0.8200002
+  blockViewHeight: 386
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -351,8 +368,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 3707489051632456562}
-  selectedCommands: []
+  - {fileID: 3707489051632456607}
+  selectedCommands:
+  - {fileID: 5177303613705554282}
   variables:
   - {fileID: 3707489051632456638}
   - {fileID: 3707489051632456615}
@@ -390,14 +408,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87
     y: 402.05127
-    width: 76.82926
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 336402900}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 3707489051632456632}
   suppressAllAutoSelections: 0
@@ -417,7 +435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -86.973816
     y: 464.1851
-    width: 74.39024
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -869,7 +887,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146
     y: 637.0513
-    width: 191.46338
+    width: 191
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -904,7 +922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -311.72726
     y: 429.73306
-    width: 90.2439
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -950,7 +968,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -145.1978
     y: 541.0513
-    width: 185.36583
+    width: 186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1047,7 +1065,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -513.06323
     y: 639.4564
-    width: 137.80487
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1079,7 +1097,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -323
     y: 613.0513
-    width: 121.9512
+    width: 123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1108,7 +1126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -322
     y: 675.0513
-    width: 130.4878
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1541,7 +1559,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -292
     y: 756.0513
-    width: 102.43901
+    width: 104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1584,7 +1602,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28
     y: 907.3115
-    width: 142.6829
+    width: 144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1618,7 +1636,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163
     y: 634.0513
-    width: 146.34145
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1769,7 +1787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132
     y: 395.05127
-    width: 90.2439
+    width: 91
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1779,6 +1797,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 3707489051632456532}
+  - {fileID: 5177303613705554282}
   - {fileID: 3707489051632456604}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456604
@@ -1813,7 +1832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130
     y: 566.0513
-    width: 124.39023
+    width: 123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1845,7 +1864,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299
     y: 565.0513
-    width: 117.07316
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1880,7 +1899,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87
     y: 692.27075
-    width: 123.170715
+    width: 124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1911,9 +1930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 258
+    x: 259
     y: 688.0513
-    width: 137.80487
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1925,8 +1944,8 @@ MonoBehaviour:
   - {fileID: 3707489051632456520}
   - {fileID: 3707489051632456521}
   - {fileID: 3707489051632456526}
-  - {fileID: 0}
   - {fileID: 3707489051632456527}
+  - {fileID: 336402877}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456577
 MonoBehaviour:
@@ -1944,7 +1963,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 197
     y: 775.0513
-    width: 118.29267
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1975,7 +1994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 499.55875
-    width: 129.26828
+    width: 129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1987,8 +2006,8 @@ MonoBehaviour:
   - {fileID: 3707489051632456528}
   - {fileID: 3707489051632456529}
   - {fileID: 3707489051632456559}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2412522333208132853}
+  - {fileID: 8218157978271362895}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456583
 MonoBehaviour:
@@ -2006,7 +2025,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 629.0513
-    width: 119.512184
+    width: 119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2020,8 +2039,8 @@ MonoBehaviour:
   - {fileID: 3707489051632456499}
   - {fileID: 3707489051632456496}
   - {fileID: 3707489051632456625}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 336402879}
+  - {fileID: 336402878}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456580
 MonoBehaviour:
@@ -2293,7 +2312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -538.439
     y: 756.337
-    width: 156.09753
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2307,6 +2326,8 @@ MonoBehaviour:
   - {fileID: 3707489051632456505}
   - {fileID: 3707489051632456510}
   - {fileID: 3707489051632456511}
+  - {fileID: 336402863}
+  - {fileID: 336402864}
   - {fileID: 3707489051632456508}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456563
@@ -2325,7 +2346,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -486
     y: 822.0513
-    width: 146.34145
+    width: 144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2337,11 +2358,19 @@ MonoBehaviour:
   - {fileID: 3707489051632456448}
   - {fileID: 3707489051632456449}
   - {fileID: 3707489051632456454}
+  - {fileID: 336402876}
   - {fileID: 3707489051632456509}
   - {fileID: 3707489051632456482}
   - {fileID: 3707489051632456483}
   - {fileID: 3707489051632456481}
   - {fileID: 3707489051632456480}
+  - {fileID: 336402873}
+  - {fileID: 336402874}
+  - {fileID: 4893294507983668081}
+  - {fileID: 8447998354890463745}
+  - {fileID: 336402875}
+  - {fileID: 336402872}
+  - {fileID: 336402871}
   - {fileID: 336402887}
   - {fileID: 3707489051632456486}
   suppressAllAutoSelections: 0
@@ -2361,7 +2390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -415.47363
     y: 874.6113
-    width: 153.65851
+    width: 152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2376,6 +2405,8 @@ MonoBehaviour:
   - {fileID: 3707489051632456491}
   - {fileID: 3707489051632456488}
   - {fileID: 3707489051632456489}
+  - {fileID: 336402862}
+  - {fileID: 336402860}
   - {fileID: 3707489051632456494}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456561
@@ -2394,7 +2425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -198
     y: 966.0513
-    width: 152.439
+    width: 153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2465,7 +2496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -60
     y: 1020.3171
-    width: 139.02437
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2495,7 +2526,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 118
     y: 1022.0513
-    width: 101.2195
+    width: 101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2539,7 +2570,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196
     y: 952.5587
-    width: 128.04877
+    width: 128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2571,7 +2602,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 194
     y: 865.0513
-    width: 129.26828
+    width: 129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4083,8 +4114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  storyText: Bobby didn't exactly have glowing praise for you. Practically all but
-    called you a gold digger.
+  storyText: Bobby said you were doing a whole lot more than just catching your breath
+    out on the stairwell.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4111,8 +4142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: 'Jesus, that''s just like him. He never listens. Only sees what he wants
-    to see. '
+  storyText: W-w-whatever do you mean? I-i-i told you. I was nervous, so I needed
+    a b-b-b-br-breather!
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4139,10 +4170,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: Yeah, I pushed him to excel at work and try to work towards a house,
-    but not because I wanted the money! I just wanted him to excel!
+  storyText: He said you were taking an awful keen interest in what Pauline and Rick
+    were talking about.
   description: 
-  character: {fileID: 3707489051606806680}
+  character: {fileID: 8386454658180527369}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4167,8 +4198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 150
   indentLevel: 0
-  storyText: Fuck it. Why even bother. I was stupid to think I can push him. Can't
-    move someone who's let booze get such a strong hold on him.
+  storyText: A-a-a-u-u-uhh...Well -y-y-yes. I-i-it's hard to ignore a full blown
+    argument going on nearby, yes.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
@@ -4195,9 +4226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  storyText: He puts away a full pack nearly every day, you know that? He needs help,
-    and I tried. But I won't try anymore. I bet the beer is what did this. He always
-    gets so mad after drinking...
+  storyText: I-i-it was very embarassing, though, so I didn't want to bring it up.
+    Pauline is a-a-an old b-b-business partner of Rick's, and a-a-an old flame too.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4245,11 +4275,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: WHAT?! No. No. Aboslutely not. Ricky would never do something like that.
-    He wasn't the kind to two-time. He barely could keep up with one woman.
+  storyText: H-h-he th-th-threatened me alot. S-s-said bad things would happen if
+    I didn't pay it back. B-b-but I knew I would.
   description: 
   character: {fileID: 3707489051606806680}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4273,8 +4303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: Bobby would say anything to get me back. It's a lie. A black fucking
-    lie! I won't believe it. Ricky would never do that!
+  storyText: H-h-h-he gave me about ten grand. I-i-i invested it in my friends restaurant.
+    For a w-w-while things seemed fine and the r-r-returns came flowing.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4301,7 +4331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: He would never have cheated on me. Never. Not ever.
+  storyText: B-b-b-buit then there was some kind of scandal at the restaruant. Th-th-the
+    place was shut down.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4328,7 +4359,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: I'm done talking about this. It has nothing to do with Ricky.
+  storyText: I k-k-knew I needed help, so I asked some family for some money. We
+    w-w-w-were going to talk about it tomorrow. I knew th-th-they wouldn't be happy,
+    but they'd help.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4355,8 +4388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  storyText: '{i}The resolute, yet pained face Fiona wears makes you truly believe
-    this is her first time hearing of this.{/i}'
+  storyText: I-i-i-i was ruined. I d-d-d-didn't know what to do. I started m-m-m-missing
+    payments, and y-y-you don't miss payments to the mafia.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4425,10 +4458,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 160
   indentLevel: 0
-  storyText: So Bobby made it pretty clear you were pretty upset when you got to
-    the party.
+  storyText: Harold said you didn't come from the party when you ran into him, you
+    came from upstairs.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8386454658180527369}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4453,9 +4486,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: I don't believe you mentioned that.
+  storyText: What were you doing upstairs?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8386454658180527369}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4480,8 +4513,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  storyText: Oh, of course he said that. I did tell you why Bobby would think I was
-    upset. It wasn't the party.
+  storyText: N-n-n-nothing, really! T-t-truth is I was already outside when Harold
+    and Margaret came out, but they were already screaming at each other so I-i-i-i
+    hid.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4508,8 +4542,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 163
   indentLevel: 0
-  storyText: The party was great! There was great food, I had a pretty new dress,
-    and even Pauline couldn't ruin how happy I was to be there.
+  storyText: I-i-i went u-u-u-upstairs so they w-w-wouldn't see me, and so I c-c-couldn't
+    hear them. I-i-i'd already heard enough lover's quarrels for one night.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4536,8 +4570,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 164
   indentLevel: 0
-  storyText: Bobby sure as hell could, though. I wasn't pissed at the party. I was
-    pissed he would just not get the picture.
+  storyText: B-b-b-but the doors out on the other floors were s-s-s-shut for the
+    night, and I f-f-f-found I had to pee, so...
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -4564,8 +4598,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  storyText: He'd been hassling Rick and hassling me, so of course I didn't want
-    to see him while I was having some fun.
+  storyText: W-w-well I didn't really have any other choice, did I? I w-w-went back
+    down and talked to Harold and M-m-m-margaret for a minute, then s-s-sprinted
+    to the bathroom.
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -5115,8 +5150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 188
   indentLevel: 0
-  storyText: Fiona...About Ricky...Bobby said he's been seeing Margaret for about
-    eight months now.
+  storyText: Louis told me he gave you a pretty sizable loan, and you haven't exactly
+    been paying him back on time...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5143,7 +5178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 0
-  storyText: He'd been...what? Seeing Professor Chun's wife? What do you mean "seeing"?
+  storyText: 'Ah. U-u-uh...Heh. Y-y-yes, that''s true. A-a-about two years ago a
+    friend of mine was l-l-l-looking for silent investors for her restaraunt. '
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -5170,9 +5206,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  storyText: 'I mean they''d been having an affair. '
+  storyText: 'I-i-it was a beautiful do-do-downtown location, and the food was great,
+    so i-i-it seemed like a sure gig. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6133,7 +6170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -310.25653
     y: 486.66962
-    width: 110.9756
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7489,21 +7526,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &336402900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3707489051632455892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 3707489051632456629}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &336402901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8851,6 +8873,741 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &336402864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 327
+  indentLevel: 0
+  storyText: T-t-that's all I heard. R-r-r-really. O-o-once Bobby ran into me, I
+    followed him back to the party and d-d-didn't hear the r-r-r-est of the convversation.
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 328
+  indentLevel: 0
+  storyText: S-s-she was f-f-furious h-h-h-he had been ignoring her. E-e-ever since
+    Rick got b-b-b-ack together with Fiona he'd been g-g-giving her the cold shoulder.
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 329
+  indentLevel: 0
+  storyText: A-a-a-after I relieved myself, I w-w-w-went back to the party, just
+    like s-s-said.
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 330
+  indentLevel: 0
+  storyText: 'S-s-s-sorry I lied about it, i-i-i-it''s just so embarrassing. D-d-didn''t
+    want to overhear s-s-s-omething like that. '
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 331
+  indentLevel: 0
+  storyText: I kn-kn-knew Rick had gotten a loan from Louis recently, s-s-so I asked
+    him for one too.
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 332
+  indentLevel: 0
+  storyText: I-i-i was so scared I-I-i-i didn't know what to do. I-i-i-i must have
+    dropped the note at the party, and R-r-rick must have found it.
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 333
+  indentLevel: 0
+  storyText: A-a-anyways, that's why I've been so shaken up all night. W-w-when I
+    met Louis at the party, h-h-he gave me that note. The one on R-r-r-rick.
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 334
+  indentLevel: 0
+  storyText: A-a-after all, it's not that much money, is it?
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 335
+  indentLevel: 0
+  storyText: I-i-i should have asked him about it, b-b-b-but now I'll never have
+    a chance...
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &336402871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 336
+  indentLevel: 0
+  storyText: I w-w-wonder if he was having trouble p-p-paying off his loan too? A
+    r-r-r-rock to the head does s-s-s-sound like a m-m-mafia job...
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2412522333208132853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 337
+  indentLevel: 0
+  text: Let's talk about someone else...
+  description: 
+  targetBlock: {fileID: 3707489051632456597}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &8218157978271362895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 338
+  indentLevel: 0
+  text: Let's talk about something else...
+  description: 
+  targetBlock: {fileID: 3707489051632456609}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &336402879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 339
+  indentLevel: 0
+  text: Let's talk about someone else...
+  description: 
+  targetBlock: {fileID: 3707489051632456597}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &336402878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 340
+  indentLevel: 0
+  text: Let's talk about something else...
+  description: 
+  targetBlock: {fileID: 3707489051632456609}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &336402877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 341
+  indentLevel: 0
+  text: Let's talk about something else...
+  description: 
+  targetBlock: {fileID: 3707489051632456609}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &4893294507983668081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 342
+  indentLevel: 0
+  storyText: I-i-i-it said they were going to kill me if I didn't pay up. I-i-immediately.
+  description: 
+  character: {fileID: 3707489051606806680}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &8447998354890463745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 343
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 336402886}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &5177303613705554282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707489051632455892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 344
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 3707489051632456638}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!1 &4673889826108567108
 GameObject:
   m_ObjectHideFlags: 0
