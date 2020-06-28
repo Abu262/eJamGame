@@ -302,11 +302,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 609.1344, y: -128.11105}
+  scrollPos: {x: 458.95197, y: -327.87878}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 384
-  zoom: 0.79000014
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -314,9 +314,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 6097167859699288160}
-  selectedCommands:
-  - {fileID: 6097167859699288277}
+  - {fileID: 6097167859699288114}
+  selectedCommands: []
   variables:
   - {fileID: 6097167859699288125}
   - {fileID: 6097167859699288072}
@@ -351,7 +350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87
     y: 402.05127
-    width: 76.582275
+    width: 78.57142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -391,9 +390,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -86.973785
-    y: 466.359
-    width: 75.31645
+    x: -86.973755
+    y: 466.35898
+    width: 76.285706
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -871,7 +870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146
     y: 637.0513
-    width: 196.83542
+    width: 192.85709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -932,7 +931,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -314
     y: 399.05127
-    width: 91.77214
+    width: 92.2857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -965,7 +964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -337
     y: 469.05127
-    width: 136.07593
+    width: 132.28568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -994,7 +993,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -328
     y: 529.0513
-    width: 110.75948
+    width: 105.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1027,7 +1026,7 @@ MonoBehaviour:
     guy!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1056,7 +1055,7 @@ MonoBehaviour:
     to do than deal with the cops when they get here.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1111,7 +1110,7 @@ MonoBehaviour:
     you.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1139,7 +1138,7 @@ MonoBehaviour:
     out, so ask away. Better than having to listen to those pricks outside yap away.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1166,7 +1165,7 @@ MonoBehaviour:
   storyText: Hah! As if!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1209,7 +1208,7 @@ MonoBehaviour:
     you? The fuck is wrong with you guys?
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1265,7 +1264,7 @@ MonoBehaviour:
     the fuck down already!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1339,7 +1338,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -143
     y: 541.0513
-    width: 189.24048
+    width: 189.42851
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1390,7 +1389,7 @@ MonoBehaviour:
     lock us all in here and shit.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1418,7 +1417,7 @@ MonoBehaviour:
     Beefcake out there locking us all up. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1466,7 +1465,7 @@ MonoBehaviour:
   storyText: What do you wanna know about, anyways?
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1513,7 +1512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -513.06323
     y: 639.4564
-    width: 157.59491
+    width: 153.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1540,9 +1539,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -323
-    y: 613.0513
-    width: 139.87341
+    x: -324.42856
+    y: 611.6227
+    width: 139.14282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1570,7 +1569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -322
     y: 675.0513
-    width: 148.73416
+    width: 145.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1928,7 +1927,7 @@ MonoBehaviour:
     anyways. My girl excepted, of course.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1955,7 +1954,7 @@ MonoBehaviour:
   storyText: What, did you fuckin' forget? Open your fuckin' ears this time.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2002,7 +2001,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -292
     y: 756.0513
-    width: 120.88606
+    width: 119.71426
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2045,8 +2044,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -28
-    y: 907.3115
-    width: 161.3924
+    y: 907.3116
+    width: 160.85709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2080,7 +2079,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163
     y: 634.0513
-    width: 165.18985
+    width: 160.85709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2230,7 +2229,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132
     y: 395.05127
-    width: 108.22784
+    width: 105.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2274,7 +2273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130
     y: 566.0513
-    width: 137.34177
+    width: 132.28568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2314,7 +2313,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299
     y: 565.0513
-    width: 136.07593
+    width: 131.14282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2346,7 +2345,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87
     y: 691.0513
-    width: 142.40504
+    width: 139.14282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2377,7 +2376,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258
     y: 688.0513
-    width: 157.59491
+    width: 153.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2408,7 +2407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 197
     y: 775.0513
-    width: 124.68353
+    width: 123.14283
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2439,7 +2438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 501.05127
-    width: 147.46834
+    width: 143.71425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2469,7 +2468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 629.0513
-    width: 137.34177
+    width: 133.42853
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2529,7 +2528,7 @@ MonoBehaviour:
     in?
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2757,7 +2756,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -536
     y: 756.337
-    width: 152.53162
+    width: 147.14282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2789,7 +2788,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -486
     y: 822.0513
-    width: 186.70883
+    width: 184.85709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2824,7 +2823,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -309.47363
     y: 870.1039
-    width: 163.92404
+    width: 158.57138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2857,7 +2856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -198
     y: 966.0513
-    width: 170.25314
+    width: 169.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2915,8 +2914,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -60
-    y: 1020.3171
-    width: 156.3291
+    y: 1020.31714
+    width: 153.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2946,7 +2945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 118
     y: 1022.0513
-    width: 118.354416
+    width: 116.28569
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2980,7 +2979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196
     y: 954.0513
-    width: 144.93669
+    width: 144.8571
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3011,7 +3010,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 194
     y: 865.0513
-    width: 147.46834
+    width: 144.8571
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3042,7 +3041,7 @@ MonoBehaviour:
   storyText: Go for it. I have nothing to hide from you.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3069,7 +3068,7 @@ MonoBehaviour:
   storyText: Sooner you figure this shit out, the sooner I can bounce.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3449,7 +3448,7 @@ MonoBehaviour:
   storyText: I already told you, didn't I? What part did you want to hear again?
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3578,7 +3577,7 @@ MonoBehaviour:
     is all over.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3607,7 +3606,7 @@ MonoBehaviour:
     into, too.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3637,7 +3636,7 @@ MonoBehaviour:
     interested, you know what I mean?
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3667,7 +3666,7 @@ MonoBehaviour:
     she stayed happy. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3696,7 +3695,7 @@ MonoBehaviour:
     pretty well too!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3726,7 +3725,7 @@ MonoBehaviour:
     a dream!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3753,7 +3752,7 @@ MonoBehaviour:
   storyText: '{i}Bobby suddenly deflates and looks a mixture of sad and angry.{/i}'
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3783,7 +3782,7 @@ MonoBehaviour:
     even a dog...All the good shit in life.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3810,7 +3809,7 @@ MonoBehaviour:
   storyText: i thought we'd fuckin' made it! I was fuckin' stupid.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3839,7 +3838,7 @@ MonoBehaviour:
     with my own money! -- like they were some kinda couple.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3869,7 +3868,7 @@ MonoBehaviour:
     ever since.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3898,7 +3897,7 @@ MonoBehaviour:
     that creep and...well here we fuckin' are, ain't we?
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3926,7 +3925,7 @@ MonoBehaviour:
     the party and had to talk to that ricky creep. Made it sound all urgent-like. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3954,7 +3953,7 @@ MonoBehaviour:
     just some other sucker in Ricky's harem. Fucker sure got around.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4249,7 +4248,7 @@ MonoBehaviour:
     don't have to tell you that, though.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4278,7 +4277,7 @@ MonoBehaviour:
     all that into it.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4307,7 +4306,7 @@ MonoBehaviour:
     all high and mighty to get you to pin it on one of us.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4334,7 +4333,7 @@ MonoBehaviour:
   storyText: Anyways, don't know anything more about the guy.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4411,7 +4410,7 @@ MonoBehaviour:
   storyText: Harold? Oh, you mean the geezer? Never met him.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4439,7 +4438,7 @@ MonoBehaviour:
     and Tim holding up his research, and that his wife is bangin' Ricky on the side.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4466,7 +4465,7 @@ MonoBehaviour:
   storyText: 'Seeing how glum the guy is, can''t say I blame her, either. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4543,7 +4542,7 @@ MonoBehaviour:
   storyText: 'Tim? Never heard of him before toniight. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4572,7 +4571,7 @@ MonoBehaviour:
     down Rick when Pauline pulled him outside. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4600,7 +4599,7 @@ MonoBehaviour:
     that ended up as PhD candidate is beyond me.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4678,7 +4677,7 @@ MonoBehaviour:
     with Rick. Guess she's that wife.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4706,7 +4705,7 @@ MonoBehaviour:
     been happy with Pauline showing up out of the blue, or Fiona, for that matter. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4734,7 +4733,7 @@ MonoBehaviour:
     rocks through guys' heads all the time.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4812,7 +4811,7 @@ MonoBehaviour:
     alive.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4841,7 +4840,7 @@ MonoBehaviour:
     other men.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4870,7 +4869,7 @@ MonoBehaviour:
     he did that with just a PhD stipend. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4898,7 +4897,7 @@ MonoBehaviour:
     all. Surprised it took this long for someone to knock him off!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4926,7 +4925,7 @@ MonoBehaviour:
     about him is pissing me off.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5004,7 +5003,7 @@ MonoBehaviour:
     downtown, Luminary.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5033,7 +5032,7 @@ MonoBehaviour:
     fuckin' mess.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5076,7 +5075,7 @@ MonoBehaviour:
     city, practically.'
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5133,7 +5132,7 @@ MonoBehaviour:
     it into girls to keep his spot in the PhD program.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5162,7 +5161,7 @@ MonoBehaviour:
     Friday and didn't leave until Monday. Said you could hear them all down the hall.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5192,7 +5191,7 @@ MonoBehaviour:
     to her sidepiece.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5242,7 +5241,7 @@ MonoBehaviour:
     door just behind some people who were leaving.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5271,7 +5270,7 @@ MonoBehaviour:
     conversation, after all -- then slipped in.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5299,7 +5298,7 @@ MonoBehaviour:
     in the bedroom to try to find him, but he wasn't there either.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5328,7 +5327,7 @@ MonoBehaviour:
     in, so we let her in, and so on.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5357,7 +5356,7 @@ MonoBehaviour:
     now I'll never get a chance.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5482,7 +5481,7 @@ MonoBehaviour:
     after a hard day of work, I have some kind of problem, now?
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5511,7 +5510,7 @@ MonoBehaviour:
     so much shit on Rick that she'd have done it for me once she found out!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5539,7 +5538,7 @@ MonoBehaviour:
     side action and that Rick is into milking that old cow out there? Fuck no!
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5567,7 +5566,7 @@ MonoBehaviour:
     cleanest in the fuckin' building. You can count on that.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5617,7 +5616,7 @@ MonoBehaviour:
     ears.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5645,7 +5644,7 @@ MonoBehaviour:
     shit my friend found, then figuring out what to do about it. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5674,7 +5673,7 @@ MonoBehaviour:
     get to Fiona. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5723,7 +5722,7 @@ MonoBehaviour:
     about five minutes to find her, but she wasn't interested in talking.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5750,7 +5749,7 @@ MonoBehaviour:
   storyText: Seems she was already in a bad mood. No idea why.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5778,7 +5777,7 @@ MonoBehaviour:
     burst in and took Rick away. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5807,7 +5806,7 @@ MonoBehaviour:
     standing there.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5835,7 +5834,7 @@ MonoBehaviour:
     around and went back tto the party.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5864,7 +5863,7 @@ MonoBehaviour:
     I focused on the drinks.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5892,7 +5891,7 @@ MonoBehaviour:
     Fiona right behind them, so I left too.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5942,7 +5941,7 @@ MonoBehaviour:
     was a shitshow, so I hoofed it.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5970,7 +5969,7 @@ MonoBehaviour:
     the boot off your car. Been there.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5999,7 +5998,7 @@ MonoBehaviour:
     to park.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6028,7 +6027,7 @@ MonoBehaviour:
     was leaving.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6105,7 +6104,7 @@ MonoBehaviour:
     and she used it as an excuse to cold shoulder me.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6132,7 +6131,7 @@ MonoBehaviour:
   storyText: And that leads us to now. Ain't got anything else to say.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6209,7 +6208,7 @@ MonoBehaviour:
     a few tonight.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6266,7 +6265,7 @@ MonoBehaviour:
     ears.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6294,7 +6293,7 @@ MonoBehaviour:
     shit my friend found, then figuring out what to do about it. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6323,7 +6322,7 @@ MonoBehaviour:
     get to Fiona. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6351,7 +6350,7 @@ MonoBehaviour:
     about five minutes to find her, but she wasn't interested in talking.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6378,7 +6377,7 @@ MonoBehaviour:
   storyText: Seems she was already in a bad mood. No idea why.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6406,7 +6405,7 @@ MonoBehaviour:
     burst in and took Rick away. '
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6435,7 +6434,7 @@ MonoBehaviour:
     standing there.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6460,10 +6459,10 @@ MonoBehaviour:
   itemId: 198
   indentLevel: 0
   storyText: He pretty clearly saw me, and I felt a bit sheepish about it, so I turned
-    around and went back tto the party.
+    around and went back to the party.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6492,7 +6491,7 @@ MonoBehaviour:
     I focused on the drinks.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6520,7 +6519,7 @@ MonoBehaviour:
     Fiona right behind them, so I left too.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6549,7 +6548,7 @@ MonoBehaviour:
     was a shitshow, so I hoofed it.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6577,7 +6576,7 @@ MonoBehaviour:
     the boot off your car. Been there.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6606,7 +6605,7 @@ MonoBehaviour:
     to park.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6630,12 +6629,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 204
   indentLevel: 0
-  storyText: I iddn't have a way into the building, though. Sure couldn't buz Rick.
+  storyText: I didn't have a way into the building, though. Sure couldn't buz Rick.
     Took me a few minutes to get in, but eventually I slipped in while some granny
     was leaving.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6691,7 +6690,7 @@ MonoBehaviour:
     and she used it as an excuse to cold shoulder me.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6718,7 +6717,7 @@ MonoBehaviour:
   storyText: And that leads us to now. Ain't got anything else to say.
   description: 
   character: {fileID: 6097167860041765763}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
