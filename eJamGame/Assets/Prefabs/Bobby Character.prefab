@@ -47,7 +47,7 @@ MonoBehaviour:
   nameColor: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  - {fileID: 21300000, guid: a40caa6604ac85449921a1b0684c1e67, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -363,11 +363,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 691.6227, y: -178.16478}
+  scrollPos: {x: 299.97943, y: -332.0727}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 384
-  zoom: 0.58000034
+  zoom: 0.67000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -375,7 +375,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8808216212278607018}
+  - {fileID: 8808216212278606988}
   selectedCommands: []
   variables:
   - {fileID: 8808216212278607015}
@@ -414,7 +414,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87
     y: 402.05127
-    width: 77.58619
+    width: 76.26865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -441,7 +441,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -86.973785
     y: 466.359
-    width: 74.827576
+    width: 75.074615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -803,7 +803,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 7096557086640547480}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
   offset: 0
@@ -919,7 +919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146
     y: 637.0513
-    width: 189.31026
+    width: 194.47755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -980,7 +980,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -314
     y: 399.05127
-    width: 91.37929
+    width: 91.79103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -337
     y: 469.05127
-    width: 131.37926
+    width: 133.58206
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1042,7 +1042,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -328
     y: 529.0513
-    width: 106.55169
+    width: 108.50744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1257,7 +1257,7 @@ MonoBehaviour:
     The fuck is wrong with you guys?
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     the fuck down already!
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1387,7 +1387,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -143
     y: 541.0513
-    width: 183.79301
+    width: 189.70143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1514,7 +1514,7 @@ MonoBehaviour:
   storyText: What do you wanna know about, anyways?
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1561,7 +1561,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -513.06323
     y: 639.4564
-    width: 152.06891
+    width: 155.07458
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1590,7 +1590,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -323
     y: 613.0513
-    width: 136.8965
+    width: 139.5522
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1618,7 +1618,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -322
     y: 675.0513
-    width: 145.17236
+    width: 145.52234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2050,7 +2050,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -292
     y: 756.0513
-    width: 118.96548
+    width: 121.64176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2094,7 +2094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28
     y: 907.3115
-    width: 160.34476
+    width: 161.04474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2129,7 +2129,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163
     y: 634.0513
-    width: 158.96545
+    width: 164.62683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2279,7 +2279,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132
     y: 395.05127
-    width: 105.17238
+    width: 107.313416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2323,7 +2323,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130
     y: 566.0513
-    width: 132.75858
+    width: 135.97012
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2366,7 +2366,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299
     y: 565.0513
-    width: 131.37926
+    width: 134.7761
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2398,7 +2398,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87
     y: 691.0513
-    width: 139.65512
+    width: 141.94026
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2429,7 +2429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258
     y: 688.0513
-    width: 153.44821
+    width: 153.88055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2460,7 +2460,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 197
     y: 775.0513
-    width: 123.1034
+    width: 125.223854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2491,7 +2491,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 501.05127
-    width: 143.79305
+    width: 147.9104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2521,7 +2521,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 629.0513
-    width: 134.13788
+    width: 137.16415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2810,7 +2810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -536
     y: 756.337
-    width: 147.93097
+    width: 151.4925
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2843,7 +2843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -486
     y: 822.0513
-    width: 182.41371
+    width: 183.7313
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2878,7 +2878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -309.47363
     y: 870.1039
-    width: 158.96545
+    width: 162.23877
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2911,7 +2911,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -235.9747
     y: 935.6716
-    width: 167.2413
+    width: 169.40294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2972,7 +2972,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -60
     y: 1020.3171
-    width: 153.44821
+    width: 153.88055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3002,7 +3002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 118
     y: 1022.0513
-    width: 116.206856
+    width: 116.86565
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3036,7 +3036,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196
     y: 954.0513
-    width: 143.79305
+    width: 143.1343
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3067,7 +3067,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 194
     y: 865.0513
-    width: 143.79305
+    width: 144.32832
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4081,7 +4081,7 @@ MonoBehaviour:
   itemId: 114
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 8808216212278607160}
     data:
       animatorData:
         animatorRef: {fileID: 0}

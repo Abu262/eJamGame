@@ -105,7 +105,6 @@ GameObject:
   - component: {fileID: 8801667058441816230}
   - component: {fileID: 8801667058441816225}
   - component: {fileID: 8801667058441816224}
-  - component: {fileID: 8801667058441816227}
   - component: {fileID: 8801667058441816226}
   - component: {fileID: 8801667058441816237}
   - component: {fileID: 8801667058441816236}
@@ -183,14 +182,6 @@ GameObject:
   - component: {fileID: 8801667058441816315}
   - component: {fileID: 8801667058441816314}
   - component: {fileID: 8801667058441816261}
-  - component: {fileID: 8801667058441816260}
-  - component: {fileID: 8801667058441816263}
-  - component: {fileID: 8801667058441816262}
-  - component: {fileID: 8801667058441816257}
-  - component: {fileID: 8801667058441816256}
-  - component: {fileID: 8801667058441816259}
-  - component: {fileID: 8801667058441816258}
-  - component: {fileID: 8801667058441816269}
   - component: {fileID: 8801667058441816268}
   - component: {fileID: 8801667058441816271}
   - component: {fileID: 8801667058441816270}
@@ -250,8 +241,6 @@ GameObject:
   - component: {fileID: 8801667058441816161}
   - component: {fileID: 8801667058441816173}
   - component: {fileID: 8801667058441816165}
-  - component: {fileID: 8801667058441816164}
-  - component: {fileID: 8801667058441816167}
   - component: {fileID: 8801667058441816090}
   - component: {fileID: 8801667058441816094}
   - component: {fileID: 8801667058441816089}
@@ -278,6 +267,19 @@ GameObject:
   - component: {fileID: 8801667058441816870}
   - component: {fileID: 8801667058441816865}
   - component: {fileID: 8801667058441816864}
+  - component: {fileID: 6148403366647070639}
+  - component: {fileID: 8714307898335388400}
+  - component: {fileID: 4472568664514882794}
+  - component: {fileID: 8221615345662384585}
+  - component: {fileID: 9130657140750203851}
+  - component: {fileID: 3076864069529167391}
+  - component: {fileID: 8425216059275681515}
+  - component: {fileID: 3618553120350336163}
+  - component: {fileID: 913527068405807935}
+  - component: {fileID: 6541478407866348003}
+  - component: {fileID: 5048500566234954425}
+  - component: {fileID: 3969807947183891875}
+  - component: {fileID: 4564959156783793226}
   m_Layer: 0
   m_Name: Fiona Flowchart
   m_TagString: Untagged
@@ -312,19 +314,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 507.47876, y: -491.77856}
+  scrollPos: {x: 307.2478, y: -858.61206}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 385
-  zoom: 0.64000046
+  zoom: 0.7000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 8801667058441816182}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 8801667058441816169}
@@ -363,8 +364,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -87
-    y: 402.05127
-    width: 78.26084
+    y: 400.48874
+    width: 78.5714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -391,7 +392,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -86.973785
     y: 464.1851
-    width: 73.91302
+    width: 76.28569
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -842,7 +843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146
     y: 637.0513
-    width: 182.60857
+    width: 192.85703
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -875,9 +876,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -311.72726
+    x: -311.7273
     y: 429.73306
-    width: 112.499954
+    width: 113.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -923,7 +924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -143
     y: 541.0513
-    width: 178.26074
+    width: 189.42845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -973,7 +974,7 @@ MonoBehaviour:
   storyText: How can I help?
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1020,7 +1021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -513.06323
     y: 639.4564
-    width: 141.30426
+    width: 149.4285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1052,7 +1053,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -323
     y: 613.0513
-    width: 130.4347
+    width: 134.57135
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1081,7 +1082,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -322
     y: 675.0513
-    width: 136.95644
+    width: 141.4285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1439,7 +1440,7 @@ MonoBehaviour:
   storyText: No, I don't think we have. Weird. I thought I'd met all of Ricky's friends.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1466,7 +1467,7 @@ MonoBehaviour:
   storyText: Of course.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1513,7 +1514,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -292
     y: 756.0513
-    width: 108.695595
+    width: 115.14281
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1556,7 +1557,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28
     y: 907.3115
-    width: 149.99991
+    width: 156.28563
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1590,7 +1591,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163
     y: 634.0513
-    width: 149.99991
+    width: 156.28563
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1741,7 +1742,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132
     y: 395.05127
-    width: 97.826035
+    width: 101.42853
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1785,7 +1786,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130
     y: 566.0513
-    width: 128.2608
+    width: 132.28564
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1816,7 +1817,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299
     y: 565.0513
-    width: 121.73906
+    width: 126.571365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1849,7 +1850,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87
     y: 691.0513
-    width: 128.2608
+    width: 134.57135
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1881,7 +1882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258
     y: 688.0513
-    width: 143.47816
+    width: 149.4285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1913,7 +1914,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 197
     y: 775.0513
-    width: 115.21732
+    width: 118.57137
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1944,7 +1945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 501.05127
-    width: 132.60861
+    width: 139.14279
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1977,7 +1978,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 629.0513
-    width: 130.4347
+    width: 133.4285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2039,7 +2040,7 @@ MonoBehaviour:
   storyText: Sure. Who do you want to know about?
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2265,9 +2266,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -536
+    x: -535.99994
     y: 756.337
-    width: 128.2608
+    width: 132.28564
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2299,7 +2300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -486
     y: 822.0513
-    width: 139.13034
+    width: 141.4285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2336,8 +2337,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -309.47363
-    y: 870.1039
-    width: 157.49992
+    y: 871.6664
+    width: 157.42848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2370,7 +2371,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -198
     y: 966.0513
-    width: 160.86945
+    width: 165.42847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2433,7 +2434,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -60
     y: 1020.3171
-    width: 145.65207
+    width: 149.4285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2447,42 +2448,6 @@ MonoBehaviour:
   - {fileID: 8801667058441816165}
   - {fileID: 8801667058441816314}
   - {fileID: 8801667058441816261}
-  suppressAllAutoSelections: 0
---- !u!114 &8801667058441816227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 118
-    y: 1022.0513
-    width: 108.695595
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 82
-  blockName: FionaParty
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 8801667058441816260}
-  - {fileID: 8801667058441816263}
-  - {fileID: 8801667058441816262}
-  - {fileID: 8801667058441816257}
-  - {fileID: 8801667058441816256}
-  - {fileID: 8801667058441816259}
-  - {fileID: 8801667058441816164}
-  - {fileID: 8801667058441816258}
-  - {fileID: 8801667058441816167}
-  - {fileID: 8801667058441816269}
   suppressAllAutoSelections: 0
 --- !u!114 &8801667058441816226
 MonoBehaviour:
@@ -2499,8 +2464,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 196
-    y: 954.0513
-    width: 138.74994
+    y: 954.0512
+    width: 140.28564
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2530,7 +2495,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 194
     y: 865.0513
-    width: 136.95644
+    width: 140.28564
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2992,7 +2957,7 @@ MonoBehaviour:
   indentLevel: 1
   text: The department party...
   description: 
-  targetBlock: {fileID: 8801667058441816227}
+  targetBlock: {fileID: 6148403366647070639}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3069,7 +3034,7 @@ MonoBehaviour:
     tonight.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3098,7 +3063,7 @@ MonoBehaviour:
     to eavesdrop on them.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3393,7 +3358,7 @@ MonoBehaviour:
     He's an MDA where RIcky works, so they meet up pretty often.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3422,7 +3387,7 @@ MonoBehaviour:
     be anything but cordial.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3450,7 +3415,7 @@ MonoBehaviour:
     says he's connected to the mafia. The Cagliostro family or something like that.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3478,7 +3443,7 @@ MonoBehaviour:
     hope Ricky was right about that...
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3555,7 +3520,7 @@ MonoBehaviour:
   storyText: Harold? Oh, you mean Professor Chun? We've been introduced before.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3583,7 +3548,7 @@ MonoBehaviour:
     got ridden him pretty hard, and that he hadn''t accomplished much recently. '
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3612,7 +3577,7 @@ MonoBehaviour:
     Maybe it boiled over?
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3689,7 +3654,7 @@ MonoBehaviour:
   storyText: Tim? Time Kane? He's Rick's office mate. They work together at the department.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3718,7 +3683,7 @@ MonoBehaviour:
     it out of the program.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3746,7 +3711,7 @@ MonoBehaviour:
     functions, though he's a nice enough sort. Just kinda bland.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3823,7 +3788,7 @@ MonoBehaviour:
   storyText: Margaret Chun? She's Harold's wife, right?
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3851,7 +3816,7 @@ MonoBehaviour:
     says she's extremely active, creative, and nothing like her husband.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3880,7 +3845,7 @@ MonoBehaviour:
     her pretty well.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3985,7 +3950,7 @@ MonoBehaviour:
   storyText: Oh Ricky. Why did this have to happen to you...
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4014,7 +3979,7 @@ MonoBehaviour:
     he was feeling.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4043,7 +4008,7 @@ MonoBehaviour:
     willing to talk about anything...Work, his feelings, his past...just something.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4072,7 +4037,7 @@ MonoBehaviour:
     confident and laid-back. He finally seemed able to open up.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4150,7 +4115,7 @@ MonoBehaviour:
     at the University of Chicago. Second year.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4219,7 +4184,7 @@ MonoBehaviour:
   storyText: Bobby didn't exactly have glowing praise for you. Practically all but
     called you a gold digger.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4382,7 +4347,7 @@ MonoBehaviour:
     He wasn't the kind to two-time. He barely could keep up with one woman.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4561,7 +4526,7 @@ MonoBehaviour:
   storyText: So Bobby made it pretty clear you were pretty upset when you got to
     the party.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4588,7 +4553,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I don't believe you mentioned that.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4837,224 +4802,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &8801667058441816260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 171
-  indentLevel: 0
-  storyText: Ricky, Tim, and I all arrived at the part at the same time, when it
-    started at 7:00 and just enjoyed the food and friends.
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 172
-  indentLevel: 0
-  storyText: 'Around 8:30 Bobby burst into the party, and I...just was not in the
-    mood to deal with him right then. '
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 173
-  indentLevel: 0
-  storyText: I told him to get lost, and that we could talk some other time. Making
-    Ricky's birthday about our shit just seemed wrong.
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 174
-  indentLevel: 0
-  storyText: About ten minutes later Pauline entered the party, and immediately tracked
-    down Ricky. They talked in the stairwell for another ten minutes.
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 175
-  indentLevel: 0
-  storyText: Only after that did Ricky introduce us. Said she was some kind of childhood
-    friend. They didn't seem romantic.
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 176
-  indentLevel: 0
-  storyText: 'After that Ricky announced the after party at his house, and mingled
-    and started inviting people. '
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 177
-  indentLevel: 0
-  storyText: I...wasn't thrilled about that, but I felt I had to trust Ricky. I didn't
-    mean to follow them, but the second Ricky left I saw Bobby coming to talk to
-    me.
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 178
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 8801667058441816131}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &8801667058441816268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5283,7 +5030,7 @@ MonoBehaviour:
   storyText: Fiona...About Ricky...Bobby said he's been seeing Margaret for about
     eight months now.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5337,7 +5084,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'I mean they''d been having an affair. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6369,9 +6116,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -310.25653
-    y: 486.66962
-    width: 110.86951
+    x: -310.2566
+    y: 486.66965
+    width: 110.57138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6402,7 +6149,7 @@ MonoBehaviour:
   storyText: Neither can I. I'm so sorry for your loss. I know you two were really
     close.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6430,7 +6177,7 @@ MonoBehaviour:
   storyText: Hey, we have to keep focused here! His murderer is still out there,
     and we must find him or we'll never get justice!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6617,7 +6364,7 @@ MonoBehaviour:
   storyText: Can you introduce yourself? I know you were close to Rick, but I don't
     think we've met.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6644,7 +6391,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Can I hear your introduction again?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6674,7 +6421,7 @@ MonoBehaviour:
     else.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6702,7 +6449,7 @@ MonoBehaviour:
     just say I should have stuck to hitting the books.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6756,7 +6503,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Can you tell me about how you know the others?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 4410365698209509086}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6786,7 +6533,7 @@ MonoBehaviour:
     over for the after party.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6815,7 +6562,7 @@ MonoBehaviour:
     want to look like I didn't trust him, so I didn't fight it.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6844,7 +6591,7 @@ MonoBehaviour:
     her away?
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7206,7 +6953,7 @@ MonoBehaviour:
     a glumball like Harold. They must be very close!
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7234,7 +6981,7 @@ MonoBehaviour:
     ago now.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7263,7 +7010,7 @@ MonoBehaviour:
     night.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7290,7 +7037,7 @@ MonoBehaviour:
   storyText: I dumped him a while ago. He...Hasn't gotten the message.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7319,7 +7066,7 @@ MonoBehaviour:
     to rest on, you know what I mean?
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7347,7 +7094,7 @@ MonoBehaviour:
     of course he wouldn''t talk about it, and I didn''t really care. '
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7376,7 +7123,7 @@ MonoBehaviour:
     or...Well, I really hope he isn't.
   description: 
   character: {fileID: 8801667058467154767}
-  portrait: {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7402,62 +7149,6 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I was ecstatic, but ashamed at the same time. My birthday gift for him
     was just a keyring. Felt cheap.
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 251
-  indentLevel: 0
-  storyText: Pauline came back around 8:30, and I hadn't even noticed she was gone.
-    She basically dragged Ricky out the door and said they had to talk.
-  description: 
-  character: {fileID: 8801667058467154767}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8801667058441816167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8801667058441816835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 252
-  indentLevel: 0
-  storyText: After everything with Pauline I {i}really{/i} wasn't in the mood to
-    talk to Bobby, so I left.
   description: 
   character: {fileID: 8801667058467154767}
   portrait: {fileID: 0}
@@ -8619,6 +8310,374 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &6148403366647070639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 136.1104
+    y: 1041.4689
+    width: 111.71423
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 82
+  blockName: FionaParty
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 8714307898335388400}
+  - {fileID: 4472568664514882794}
+  - {fileID: 8221615345662384585}
+  - {fileID: 9130657140750203851}
+  - {fileID: 3076864069529167391}
+  - {fileID: 8425216059275681515}
+  - {fileID: 3618553120350336163}
+  - {fileID: 913527068405807935}
+  - {fileID: 6541478407866348003}
+  - {fileID: 5048500566234954425}
+  - {fileID: 3969807947183891875}
+  - {fileID: 4564959156783793226}
+  suppressAllAutoSelections: 0
+--- !u!114 &8714307898335388400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 281
+  indentLevel: 0
+  storyText: Ricky, Tim, and I all arrived at the part at the same time, when it
+    started at 7:00 and just enjoyed the food and friends.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &4472568664514882794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 282
+  indentLevel: 0
+  storyText: 'Around 8:30 Bobby burst into the party, and I...just was not in the
+    mood to deal with him right then. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &8221615345662384585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 283
+  indentLevel: 0
+  storyText: I told him to get lost, and that we could talk some other time. Making
+    Ricky's birthday about our shit just seemed wrong.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &9130657140750203851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 284
+  indentLevel: 0
+  storyText: About ten minutes later Pauline entered the party, and immediately tracked
+    down Ricky. They talked in the stairwell for another ten minutes.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3076864069529167391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 285
+  indentLevel: 0
+  storyText: Only after that did Ricky introduce us. Said she was some kind of childhood
+    friend. They didn't seem romantic. Can't say I saw her much for a while after
+    that, though...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &8425216059275681515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 286
+  indentLevel: 0
+  storyText: 'Anyways, after all that business Ricky announced the after party at
+    his house, then went back to mingling and started inviting people. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3618553120350336163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 287
+  indentLevel: 0
+  storyText: Pauline came back around 8:30, confirmimg she had gone somewhere. Hell
+    of a long bathroom break.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &913527068405807935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 288
+  indentLevel: 0
+  storyText: 'Right away she all but dragged Ricky out the door and said they had
+    to talk on the way to his place. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &6541478407866348003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 289
+  indentLevel: 0
+  storyText: I...wasn't thrilled about that, but I felt I had to trust Ricky wasn't
+    up to anything.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &5048500566234954425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 290
+  indentLevel: 0
+  storyText: I had meant to stay at the party for a while before following them,
+    but the second Ricky left I saw Bobby coming to talk to me.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3969807947183891875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 291
+  indentLevel: 0
+  storyText: After everything with Pauline I {i}really{/i} wasn't in the mood to
+    talk to Bobby, so I left the party and headed to Ricky's.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &4564959156783793226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801667058441816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 292
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &8801667058467154766
 GameObject:
   m_ObjectHideFlags: 0
@@ -8666,7 +8725,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
+  - {fileID: 21300000, guid: 1f10b85335567f5408ddce041e08dcfe, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -8739,6 +8798,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70d14679b77e98043ac6a634900a30bc, type: 3}
+--- !u!114 &4410365698209509086 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3478200021769065144, guid: 70d14679b77e98043ac6a634900a30bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 968775578777123942}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4410365698209509087 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3478200021769065145, guid: 70d14679b77e98043ac6a634900a30bc,
