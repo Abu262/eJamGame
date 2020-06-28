@@ -1696,9 +1696,10 @@ GameObject:
   - component: {fileID: 435868}
   - component: {fileID: 9509074}
   - component: {fileID: 1001253376}
+  - component: {fileID: 7203734248110546919}
   m_Layer: 0
   m_Name: Character_BusinessMan_Shirt_01
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1724,6 +1725,7 @@ Transform:
   - {fileID: 415058}
   - {fileID: 411934}
   - {fileID: 460666}
+  - {fileID: 5814849226512295483}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1737,7 +1739,7 @@ Animator:
   m_GameObject: {fileID: 153506}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 897b34267f422c1499700402763d096e, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 35133eedf5b7b8244808dd4550d6f037, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1757,8 +1759,24 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.43040088, y: 1.8409988, z: 0.35791793}
+  m_Center: {x: 0.0002888392, y: 0.8972816, z: -0.016541846}
+--- !u!114 &7203734248110546919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbd1e9a87a9fe841a777131f7a0eeb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  ID: 0
+  bc: {fileID: 0}
+  flowchart: {fileID: 7029836876159216873}
 --- !u!1 &156172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2771,3 +2789,90 @@ Transform:
   m_Father: {fileID: 460666}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7894063773025959436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 435868}
+    m_Modifications:
+    - target: {fileID: 923034262781109179, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_Name
+      value: Harold Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+--- !u!4 &5814849226512295483 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4413289854591670327, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7894063773025959436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7029836876159216873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 865718390026965733, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7894063773025959436}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
