@@ -351,9 +351,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 3707489051632456561}
-  selectedCommands:
-  - {fileID: 336402905}
+  - {fileID: 3707489051632456563}
+  selectedCommands: []
   variables:
   - {fileID: 3707489051632456638}
   - {fileID: 3707489051632456615}
@@ -1926,7 +1925,7 @@ MonoBehaviour:
   - {fileID: 3707489051632456520}
   - {fileID: 3707489051632456521}
   - {fileID: 3707489051632456526}
-  - {fileID: 3707489051632456553, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
+  - {fileID: 0}
   - {fileID: 3707489051632456527}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456577
@@ -1988,8 +1987,8 @@ MonoBehaviour:
   - {fileID: 3707489051632456528}
   - {fileID: 3707489051632456529}
   - {fileID: 3707489051632456559}
-  - {fileID: 3707489051632456556, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
-  - {fileID: 3707489051632456557, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456583
 MonoBehaviour:
@@ -2021,8 +2020,8 @@ MonoBehaviour:
   - {fileID: 3707489051632456499}
   - {fileID: 3707489051632456496}
   - {fileID: 3707489051632456625}
-  - {fileID: 3707489051632456497, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
-  - {fileID: 3707489051632456630, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   suppressAllAutoSelections: 0
 --- !u!114 &3707489051632456580
 MonoBehaviour:
