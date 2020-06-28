@@ -4026,7 +4026,7 @@ Transform:
   m_Father: {fileID: 4628958396370928}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &579256101
+--- !u!114 &579256080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4038,11 +4038,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 233
+  itemId: 251
   indentLevel: 0
-  storyText: I got off work this afternoon around 5:00, and went with my friend for
-    some drinks. He told me he had a bombshell to give me about Rick, so I was all
-    ears.
+  storyText: And that leads us to now. Ain't got anything else to say.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4055,7 +4053,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256100
+--- !u!114 &579256081
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4067,10 +4065,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 234
+  itemId: 250
   indentLevel: 0
-  storyText: 'I was at McKinney''s in midtown for about two hours listening to the
-    shit my friend found, then figuring out what to do about it. '
+  storyText: Had no luck, though. Everyone started buzzing in right around then,
+    and she used it as an excuse to cold shoulder me.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4083,7 +4081,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256099
+--- !u!114 &579256082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4095,11 +4093,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 235
+  itemId: 249
   indentLevel: 0
-  storyText: 'My buddy told me about the birthday party the department was throwing
-    for Rick, so I decided to come, since I figured it would be a good chance to
-    get to Fiona. '
+  storyText: Not much to say. I got to the apartment around the same time Fiona did,
+    and I tried to talk to her.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4112,7 +4109,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256098
+--- !u!114 &579256084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4124,10 +4121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 236
+  itemId: 248
   indentLevel: 0
-  storyText: I got to the party around 7:30, and tried to find Fiona ASAP. Took me
-    about five minutes to find her, but she wasn't interested in talking.
+  storyText: I didn't have a way into the building, though. Sure couldn't buz Rick.
+    Took me a few minutes to get in, but eventually I slipped in while some granny
+    was leaving.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4140,7 +4138,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256097
+--- !u!114 &579256085
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4152,9 +4150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 237
+  itemId: 247
   indentLevel: 0
-  storyText: Seems she was already in a bad mood. No idea why.
+  storyText: Anyway, it took me about ten minutes to hoof it to the apartment complex.
+    I passed by Pauline while I was walking up as she was trying to find a place
+    to park.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4167,7 +4167,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256096
+--- !u!114 &579256087
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4179,10 +4179,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 238
+  itemId: 246
   indentLevel: 0
-  storyText: 'I started to enjoy some of the drinks, when suddenly that woman, Pauline,
-    burst in and took Rick away. '
+  storyText: That's where I ran into you, while you were getting the police to take
+    the boot off your car. Been there.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4195,7 +4195,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256094
+--- !u!114 &579256088
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4207,11 +4207,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 239
+  itemId: 245
   indentLevel: 0
-  storyText: I followed them, of course, since it seemed like a good chance to get
-    some more shit on Rick. When I got to the stairwell, though, that guy Tim was
-    standing there.
+  storyText: So I slipped out of the party and started to head to Rick's house. My
+    buddy had given me the address earlier in the night, and told me the parking
+    was a shitshow, so I hoofed it.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4224,7 +4224,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256093
+--- !u!114 &579256089
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4236,10 +4236,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 240
+  itemId: 244
   indentLevel: 0
-  storyText: He sure seemed damn interested in whatever Rick and Pauline were talking
-    about. Nearly jumped out of his skin when he saw me.
+  storyText: An hour or so later I saw Rick and Pauline slip out of the party, with
+    Fiona right behind them, so I left too.
+  description: 
+  character: {fileID: 7594258382229486530}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &579256090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152959169622466608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 243
+  indentLevel: 0
+  storyText: They had some fuckin' fine drinks there, so I helped myself. Also met
+    Louis around here, and we chatted it up for a bit, but he was kinda a tool so
+    I focused on the drinks.
+  description: 
+  character: {fileID: 7594258382229486530}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &579256091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152959169622466608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 242
+  indentLevel: 0
+  storyText: He pretty clearly saw me, and I felt a bit sheepish about it, so I turned
+    around and went back to the party.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4404,7 +4461,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &579256091
+--- !u!114 &579256093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4416,10 +4473,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 242
+  itemId: 240
   indentLevel: 0
-  storyText: He pretty clearly saw me, and I felt a bit sheepish about it, so I turned
-    around and went back to the party.
+  storyText: He sure seemed damn interested in whatever Rick and Pauline were talking
+    about. Nearly jumped out of his skin when he saw me.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4432,7 +4489,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256090
+--- !u!114 &579256094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4444,11 +4501,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 243
+  itemId: 239
   indentLevel: 0
-  storyText: They had some fuckin' fine drinks there, so I helped myself. Also met
-    Louis around here, and we chatted it up for a bit, but he was kinda a tool so
-    I focused on the drinks.
+  storyText: I followed them, of course, since it seemed like a good chance to get
+    some more shit on Rick. When I got to the stairwell, though, that guy Tim was
+    standing there.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4461,7 +4518,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256089
+--- !u!114 &579256096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4473,10 +4530,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 244
+  itemId: 238
   indentLevel: 0
-  storyText: An hour or so later I saw Rick and Pauline slip out of the party, with
-    Fiona right behind them, so I left too.
+  storyText: 'I started to enjoy some of the drinks, when suddenly that woman, Pauline,
+    burst in and took Rick away. '
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4489,7 +4546,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256088
+--- !u!114 &579256097
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4501,11 +4558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 245
+  itemId: 237
   indentLevel: 0
-  storyText: So I slipped out of the party and started to head to Rick's house. My
-    buddy had given me the address earlier in the night, and told me the parking
-    was a shitshow, so I hoofed it.
+  storyText: Seems she was already in a bad mood. No idea why.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4518,7 +4573,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256087
+--- !u!114 &579256098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4530,10 +4585,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 246
+  itemId: 236
   indentLevel: 0
-  storyText: That's where I ran into you, while you were getting the police to take
-    the boot off your car. Been there.
+  storyText: I got to the party around 7:30, and tried to find Fiona ASAP. Took me
+    about five minutes to find her, but she wasn't interested in talking.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4546,7 +4601,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256085
+--- !u!114 &579256099
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4558,11 +4613,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 247
+  itemId: 235
   indentLevel: 0
-  storyText: Anyway, it took me about ten minutes to hoof it to the apartment complex.
-    I passed by Pauline while I was walking up as she was trying to find a place
-    to park.
+  storyText: 'My buddy told me about the birthday party the department was throwing
+    for Rick, so I decided to come, since I figured it would be a good chance to
+    get to Fiona. '
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4575,7 +4630,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256084
+--- !u!114 &579256100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4587,11 +4642,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 248
+  itemId: 234
   indentLevel: 0
-  storyText: I didn't have a way into the building, though. Sure couldn't buz Rick.
-    Took me a few minutes to get in, but eventually I slipped in while some granny
-    was leaving.
+  storyText: 'I was at McKinney''s in midtown for about two hours listening to the
+    shit my friend found, then figuring out what to do about it. '
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4604,7 +4658,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256082
+--- !u!114 &579256101
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4616,10 +4670,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 249
+  itemId: 233
   indentLevel: 0
-  storyText: Not much to say. I got to the apartment around the same time Fiona did,
-    and I tried to talk to her.
+  storyText: I got off work this afternoon around 5:00, and went with my friend for
+    some drinks. He told me he had a bombshell to give me about Rick, so I was all
+    ears.
   description: 
   character: {fileID: 7594258382229486530}
   portrait: {fileID: 0}
@@ -4632,7 +4687,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &579256081
+--- !u!114 &3768092573547258490
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4641,26 +4696,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 8152959169622466608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 250
+  itemId: 347
   indentLevel: 0
-  storyText: Had no luck, though. Everyone started buzzing in right around then,
-    and she used it as an excuse to cold shoulder me.
-  description: 
+  display: 2
+  stage: {fileID: 0}
   character: {fileID: 7594258382229486530}
+  replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &579256080
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &579256323
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4669,24 +4726,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 8152959169622466608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: f1ff0f540016ff64ab1556db6fe1e10f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 251
+  itemId: 348
   indentLevel: 0
-  storyText: And that leads us to now. Ain't got anything else to say.
-  description: 
-  character: {fileID: 7594258382229486530}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  display: 2
+  stage: {fileID: 0}
+  replacedStage: {fileID: 0}
+  useDefaultSettings: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
 --- !u!1001 &799442608067681626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4924,6 +4974,12 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 7594258382229486530}
+    - target: {fileID: 8808216212278607012, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+        type: 3}
+      propertyPath: storyText
+      value: What is this bullshit? Think you can just come over here and interrogate
+        me like I'm some kind of criminal?
+      objectReference: {fileID: 0}
     - target: {fileID: 8808216212278607016, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
         type: 3}
       propertyPath: nodeRect.width
@@ -4933,6 +4989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: nodeRect.width
       value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808216212278607021, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+        type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8808216212278607021, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
         type: 3}
@@ -5301,9 +5362,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8808216212278607090, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
         type: 3}
+      propertyPath: commandList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808216212278607090, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+        type: 3}
       propertyPath: nodeRect.width
       value: 106
       objectReference: {fileID: 0}
+    - target: {fileID: 8808216212278607090, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 3768092573547258490}
+    - target: {fileID: 8808216212278607090, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 579256323}
+    - target: {fileID: 8808216212278607090, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+        type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 8152959169622466985}
     - target: {fileID: 8808216212278607096, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
         type: 3}
       propertyPath: nodeRect.width
@@ -5983,6 +6064,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8152959169622466985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8808216212278607091, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+    type: 3}
+  m_PrefabInstance: {fileID: 799442608067681626}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152959169622466608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae67a23cb4aa74793b41258ae40bf321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8152959169622466836 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8808216212278606926, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+    type: 3}
+  m_PrefabInstance: {fileID: 799442608067681626}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152959169622466608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8152959169622466654 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8808216212278607108, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
@@ -5995,30 +6100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8152959169622467061 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8808216212278607023, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
-    type: 3}
-  m_PrefabInstance: {fileID: 799442608067681626}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8152959169622466608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &799442608881060778 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 814044912, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
-    type: 3}
-  m_PrefabInstance: {fileID: 799442608067681626}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8152959169622466608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8152959169622466949 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8808216212278607071, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
@@ -6029,6 +6110,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8152959169622467061 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8808216212278607023, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+    type: 3}
+  m_PrefabInstance: {fileID: 799442608067681626}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152959169622466608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &7594258382229486530 stripped
@@ -6055,15 +6148,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8152959169622466836 stripped
+--- !u!114 &799442608881060778 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8808216212278606926, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
+  m_CorrespondingSourceObject: {fileID: 814044912, guid: 92ba062a6ecd0d542b7788cf9b9d682a,
     type: 3}
   m_PrefabInstance: {fileID: 799442608067681626}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8152959169622466608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
