@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 2496238830265999432}
   - component: {fileID: 2496238830265999433}
   - component: {fileID: 2496238830265999438}
-  - component: {fileID: 2496238830265999439}
   - component: {fileID: 2496238830265999436}
   - component: {fileID: 2496238830265999437}
   - component: {fileID: 2496238830265999426}
@@ -282,6 +281,7 @@ GameObject:
   - component: {fileID: 1804707733}
   - component: {fileID: 1804707734}
   - component: {fileID: 1804707735}
+  - component: {fileID: 2496238830265999487}
   m_Layer: 0
   m_Name: Louis Flowchart
   m_TagString: Untagged
@@ -328,7 +328,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2496238830265999390}
+  - {fileID: 2496238830265999438}
   selectedCommands: []
   variables:
   - {fileID: 2496238830265999427}
@@ -374,25 +374,10 @@ MonoBehaviour:
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 2496238830265999439}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2496238830265999437}
   suppressAllAutoSelections: 0
---- !u!114 &2496238830265999439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2496238830265999758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2496238830265999438}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &2496238830265999436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -947,7 +932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -314
     y: 397.2331
-    width: 92.790665
+    width: 198.83708
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -977,7 +962,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -337
     y: 469.05127
-    width: 135.58133
+    width: 172.79059
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -991,37 +976,6 @@ MonoBehaviour:
   - {fileID: 2496238830265999471}
   - {fileID: 1804707676}
   - {fileID: 2496238830265999468}
-  suppressAllAutoSelections: 0
---- !u!114 &2496238830265999487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2496238830265999758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -328
-    y: 529.0513
-    width: 109.534836
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 19
-  blockName: Renegade
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 2496238830265999479}
-  - {fileID: 2496238830265999476}
-  - {fileID: 2496238830265999466}
-  - {fileID: 2496238830265999477}
-  - {fileID: 2496238830265999467}
   suppressAllAutoSelections: 0
 --- !u!114 &2496238830265999484
 MonoBehaviour:
@@ -1291,7 +1245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -513.06323
     y: 639.4564
-    width: 144.52052
+    width: 152.3255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2249,7 +2203,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 629.0513
-    width: 126.71231
+    width: 131.8604
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2537,7 +2491,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -536
     y: 754.9671
-    width: 141.78079
+    width: 144.88364
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2573,7 +2527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -486
     y: 822.0513
-    width: 134.93149
+    width: 141.16272
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6743,7 +6697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -388.8568
     y: 873.2069
-    width: 111.643814
+    width: 116.97669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7218,7 +7172,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -388.8568
     y: 873.2069
-    width: 118.354416
+    width: 116.97669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8522,6 +8476,37 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &2496238830265999487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496238830265999758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -328
+    y: 529.0513
+    width: 109.534836
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 19
+  blockName: Renegade
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  suppressAllAutoSelections: 0
 --- !u!1 &2496238832076422130
 GameObject:
   m_ObjectHideFlags: 0
