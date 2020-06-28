@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 4409602181670132}
   - component: {fileID: 33655966658654824}
   - component: {fileID: 23170883607793932}
+  - component: {fileID: 1162340743}
   m_Layer: 0
   m_Name: SM_Prop_Bath_01
   m_TagString: Untagged
@@ -104,7 +105,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440636743291842}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -159,3 +160,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1162340743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440636743291842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5099254, y: 0.5409775, z: 1.2985449}
+  m_Center: {x: 0, y: 0.27048874, z: 0}

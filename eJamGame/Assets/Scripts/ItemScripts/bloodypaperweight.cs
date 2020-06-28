@@ -9,7 +9,7 @@ public class bloodypaperweight : ItemClass
     void Start()
     {
         name = "Bloody Paper Weight";
-        ID = 0;
+        ID = 19;
     }
 
     // Update is called once per frame
@@ -20,8 +20,13 @@ public class bloodypaperweight : ItemClass
 
     public override IEnumerator Interact()
     {
+        flowchart.SetIntegerVariable("myInt", ID);
+        flowchart.ExecuteBlock("Start");
 
-
+        while (flowchart.GetIntegerVariable("myInt") == ID)
+        {
+            yield return null;
+        }
         yield return null;
     }
 }

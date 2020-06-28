@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class PlayerControls : MonoBehaviour
 {
     public CharacterController controller;
@@ -9,7 +10,7 @@ public class PlayerControls : MonoBehaviour
 
     //movement variables
     public float speed = 12f;
-    public float gravity = 0f;
+    public float gravity = -9.81f;
 
 
     //falling and jumping, might not need this
@@ -22,8 +23,8 @@ public class PlayerControls : MonoBehaviour
 
 
     //text object
-    public Text T;
-
+    //public Text T;
+    public TextMeshProUGUI TMP;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,23 +55,23 @@ public class PlayerControls : MonoBehaviour
                 //if we hit an item display the item
                 if (hit.collider.tag == "Item")
                 {
-                    T.text = hit.transform.gameObject.GetComponent<ItemClass>().name;
+                    TMP.text = hit.transform.gameObject.GetComponent<ItemClass>().name;
                 }
                 else
                 {
-                    T.text = "";
+                    TMP.text = "";
                 }
             }
             else
             {
-                T.text = "";
+                TMP.text = "";
             }
 
 
             //movement controls
             if (isGrounded && velocity.y < 0)
             {
-                //velocity.y = -2f;
+                velocity.y = -2f;
             }
 
             float x = Input.GetAxis("Horizontal");
@@ -78,14 +79,15 @@ public class PlayerControls : MonoBehaviour
 
             Vector3 move = transform.right * x + transform.forward * z;
             controller.Move(move * speed * Time.deltaTime);
-            //velocity.y += gravity + Time.deltaTime;
+            velocity.y += gravity + Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
 
-            if (isGrounded)
-            {
+           // if (isGrounded)
+            //{
                 //if we are on the ground then you can click on object to interact with them
                 if (Input.GetMouseButtonDown(0))
                 {
+                    Debug.Log("Clicking");
                     RaycastHit hit2;
                     if (Physics.Raycast(
                             Camera.main.transform.position,
@@ -97,14 +99,14 @@ public class PlayerControls : MonoBehaviour
                         if (hit2.collider.tag == "Item")
                         {
                             Debug.Log("HIT");
-
+                            TMP.text = "";
                             StartCoroutine(click(hit2.transform.gameObject.GetComponent<ItemClass>()));
                         }
 
 
                     }
                 }
-            }
+            //}
         }
     }
 
