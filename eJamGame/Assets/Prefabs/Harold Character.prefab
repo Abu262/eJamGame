@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 198601040}
   - component: {fileID: 198601039}
   - component: {fileID: 198601038}
+  - component: {fileID: 198601130}
   m_Layer: 0
   m_Name: Harold Flowchart
   m_TagString: Untagged
@@ -357,6 +358,7 @@ MonoBehaviour:
   - {fileID: 729234676}
   - {fileID: 729234764}
   - {fileID: 729234753}
+  - {fileID: 198601130}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -7808,7 +7810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: HaroldRevealedAffair
   value: 0
 --- !u!114 &729234752
@@ -8634,6 +8636,21 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &198601130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865718390026965794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: TimSeenByHarold
+  value: 0
 --- !u!1 &923034262781109179
 GameObject:
   m_ObjectHideFlags: 0
