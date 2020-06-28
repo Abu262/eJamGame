@@ -34,7 +34,7 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                Debug.Log("No more time");
+                
                 timeRemaining = 0;
                 stillTimeLeft = false;
                 flowchart.ExecuteBlock("Start");

@@ -25,7 +25,7 @@ public class SphereItem : ItemClass
 
     public override IEnumerator Interact()
     {
-        Debug.Log("This is an override!");
+  
 
         flowchart.SetIntegerVariable("myInt", 2);
         flowchart.ExecuteBlock("Start");

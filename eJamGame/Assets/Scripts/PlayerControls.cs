@@ -87,7 +87,7 @@ public class PlayerControls : MonoBehaviour
                 //if we are on the ground then you can click on object to interact with them
                 if (Input.GetMouseButtonDown(0))
                 {
-                    Debug.Log("Clicking");
+                  
                     RaycastHit hit2;
                     if (Physics.Raycast(
                             Camera.main.transform.position,
@@ -98,7 +98,7 @@ public class PlayerControls : MonoBehaviour
                     {
                         if (hit2.collider.tag == "Item")
                         {
-                            Debug.Log("HIT");
+                            
                             TMP.text = "";
                             StartCoroutine(click(hit2.transform.gameObject.GetComponent<ItemClass>()));
                         }
