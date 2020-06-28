@@ -367,8 +367,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2471502955507970655}
+  selectedCommands:
+  - {fileID: 5711751915521595090}
   variables:
   - {fileID: 2471502955507970595}
   - {fileID: 2471502955507970582}
@@ -8822,8 +8824,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 347
   indentLevel: 1
-  storyText: 'I headed back to the party once I was done in the office, but got a
-    bit lost and went a floor too far down. '
+  storyText: So I took the disk and took the elevator back down to the party. Didn't
+    really remember the right floor, though, so I got a bit lost...
   description: 
   character: {fileID: 2471502953699649949}
   portrait: {fileID: 0}
@@ -8850,8 +8852,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 348
   indentLevel: 1
-  storyText: 'Around 8:25 I made it back to the party in one piece, though, and met
-    up with Rick at the edge of the party. '
+  storyText: 'it was around 8:25 I finally made it back to the party in one piece.
+    I  met up with Rick at the edge of the party. '
   description: 
   character: {fileID: 2471502953699649949}
   portrait: {fileID: 0}
@@ -9047,7 +9049,7 @@ MonoBehaviour:
   itemId: 355
   indentLevel: 1
   storyText: Rick had given me the keys to his office, so I got in easily enough.
-    The dissk was easy to find, too. The disk box was lready opened and the contents
+    The dissk was easy to find, too. The disk box was already opened and the contents
     were spread all across the desk.
   description: 
   character: {fileID: 2471502953699649949}

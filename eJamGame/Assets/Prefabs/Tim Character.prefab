@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 598.5107, y: -143.77338}
+  scrollPos: {x: 589.9742, y: -227.91972}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 385
@@ -351,7 +351,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 3707489051632456563}
+  - {fileID: 3707489051632456562}
   selectedCommands: []
   variables:
   - {fileID: 3707489051632456638}
@@ -2291,7 +2291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -536
+    x: -538.439
     y: 756.337
     width: 156.09753
     height: 40
@@ -2599,7 +2599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: Of course. I want to help any way I can!
+  storyText: Y-y-yeah? Wh-wh-what did you want to know about?
   description: 
   character: {fileID: 3707489051606806680}
   portrait: {fileID: 0}
@@ -2626,7 +2626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 1
-  text: Bobby said you were pretty upset at the party...
+  text: Bobby saw you in the stairwell...
   description: 
   targetBlock: {fileID: 3707489051632456562}
   hideIfVisited: 0
@@ -2651,7 +2651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 1
-  text: About Ricky and Margaret...
+  text: About your loan from Louis...
   description: 
   targetBlock: {fileID: 3707489051632456563}
   hideIfVisited: 0
@@ -2676,7 +2676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 1
-  text: Bobby had some things to say about you...
+  text: About your talk with Harold...
   description: 
   targetBlock: {fileID: 3707489051632456560}
   hideIfVisited: 0
@@ -5222,7 +5222,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 336402890}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -5518,7 +5518,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 336402891}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -5814,7 +5814,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 336402889}
       data:
         animatorData:
           animatorRef: {fileID: 0}

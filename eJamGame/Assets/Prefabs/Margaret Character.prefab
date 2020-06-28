@@ -282,8 +282,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 3918521558545766513}
+  selectedCommands:
+  - {fileID: 901798792}
   variables:
   - {fileID: 3918521558545766587}
   - {fileID: 3918521558545766562}
@@ -6477,8 +6479,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 291
   indentLevel: 0
-  storyText: Before we could finish making up Tim appeared, as if from thin air.
-    He and Hal talked awkwardly for a few moments, and then Tim reentered the party.
+  storyText: Before we could finish making up, though, Tim came running down the
+    stairs. He and Hal talked awkwardly for a few moments, and then Tim reentered
+    the party.
   description: 
   character: {fileID: 3918521558570318749}
   portrait: {fileID: 0}
