@@ -8418,9 +8418,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 388380313}
-  selectedCommands:
-  - {fileID: 388380270}
+  - {fileID: 388380324}
+  selectedCommands: []
   variables:
   - {fileID: 388380339}
   - {fileID: 388380330}
@@ -10105,7 +10104,7 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 729234773}
     - target: {fileID: 865718390026965717, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
         type: 3}
       propertyPath: nodeRect.width
@@ -10137,6 +10136,11 @@ PrefabInstance:
       propertyPath: nodeRect.width
       value: 75
       objectReference: {fileID: 0}
+    - target: {fileID: 865718390026965728, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+        type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 729234774}
     - target: {fileID: 865718390026965730, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
         type: 3}
       propertyPath: nodeRect.width
@@ -10768,6 +10772,64 @@ PrefabInstance:
     - {fileID: 865718390026965886, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
     - {fileID: 865718390026965883, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
     - {fileID: 865718390026965880, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234676, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234695, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234696, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234677, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234678, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234679, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234680, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234681, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234689, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234690, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234691, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234692, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234693, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234694, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234697, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234698, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234699, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234700, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234701, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234702, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234703, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234704, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234708, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234709, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234713, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234714, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234715, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234716, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234717, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234718, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234719, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234720, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234721, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234722, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234723, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234724, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234725, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234726, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234727, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234728, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234729, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234730, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234731, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234732, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234733, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234734, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234735, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234736, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234737, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234738, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234739, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234743, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234744, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234745, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234746, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234747, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234748, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
+    - {fileID: 729234749, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 73e2e662b110a2d4eac907c4cc40f9b1, type: 3}
 --- !u!1 &729234646 stripped
 GameObject:
@@ -11150,7 +11212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 255
+  itemId: 330
   indentLevel: 0
 --- !u!114 &729234678
 MonoBehaviour:
@@ -11164,7 +11226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 254
+  itemId: 331
   indentLevel: 1
   text: About Rick and Margaret...
   description: 
@@ -11189,7 +11251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 253
+  itemId: 332
   indentLevel: 0
 --- !u!114 &729234680
 MonoBehaviour:
@@ -11203,7 +11265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 252
+  itemId: 333
   indentLevel: 1
   text: ...
   description: 
@@ -11228,7 +11290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 251
+  itemId: 334
   indentLevel: 0
   anyOrAllConditions: 0
   conditions:
@@ -11471,7 +11533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 250
+  itemId: 335
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 729234669}
@@ -11492,7 +11554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 249
+  itemId: 336
   indentLevel: 0
   storyText: Dammit. I..I wish I could say I was surprised. We were growing apart
     after all. Part of me expected to hear something like this someday.
@@ -11520,7 +11582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 248
+  itemId: 337
   indentLevel: 0
   storyText: I'm sorry...About eight months.
   description: 
@@ -11547,7 +11609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 247
+  itemId: 338
   indentLevel: 0
   storyText: For...for how long?
   description: 
@@ -11574,7 +11636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 246
+  itemId: 339
   indentLevel: 0
   storyText: '{i}Harold stares at you for a full ten seconds without blinking or
     moving, as if he were struggling to process your words.{/i}'
@@ -11602,7 +11664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 245
+  itemId: 340
   indentLevel: 0
   storyText: Professor, I don't know how to tell you this, but...Bobby has evidence
     Margaret has been having an affair with Rick.
@@ -11634,11 +11696,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -526.07935
     y: 832.9565
-    width: 167.8082
+    width: 168
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 301
+  itemId: 329
   blockName: HaroldMargaretAffair
   description: 
   eventHandler: {fileID: 0}
@@ -11666,7 +11728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 236
+  itemId: 341
   indentLevel: 0
   storyText: Now I'm not so sure.
   description: 
@@ -11693,7 +11755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 235
+  itemId: 342
   indentLevel: 0
   storyText: We've fought recently. About us. I...can't remember any other time we've
     done something like that. I never thought "us" was in question.
@@ -11721,7 +11783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 234
+  itemId: 343
   indentLevel: 0
   anyVar:
     variable: {fileID: 729234695}
@@ -11873,7 +11935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 233
+  itemId: 344
   indentLevel: 0
   storyText: I'd say you should stay away, if you know what's good for you.
   description: 
@@ -11900,7 +11962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 232
+  itemId: 345
   indentLevel: 0
   storyText: They say he's a loanshark, and exploiting all the students around the
     campus on the Don's behalf!
@@ -11928,7 +11990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 231
+  itemId: 346
   indentLevel: 0
   anyVar:
     variable: {fileID: 729234696}
@@ -12110,7 +12172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 230
+  itemId: 347
   indentLevel: 0
   storyText: Rumor around the office is that he's in the Mafia!
   description: 
@@ -12137,7 +12199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 228
+  itemId: 348
   indentLevel: 0
   storyText: I would be happy to.
   description: 
@@ -12164,7 +12226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 227
+  itemId: 349
   indentLevel: 0
   storyText: Certainly.
   description: 
@@ -12191,7 +12253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 226
+  itemId: 350
   indentLevel: 0
   storyText: The teaching is fun, and I met my wife, Margaret, here as well. Coming
     to Chicago has...well it's been good for me.
@@ -12219,7 +12281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 225
+  itemId: 351
   indentLevel: 0
   storyText: '{i}He sighs as he  looks back at better days.{/i}'
   description: 
@@ -12246,7 +12308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 224
+  itemId: 352
   indentLevel: 0
   storyText: Those were the day. my research hasn't progressed much since I got to
     the U of C. I still enjoy being here, though.
@@ -12274,12 +12336,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 223
+  itemId: 353
   indentLevel: 0
   storyText: Professor Chun, I don't think we've met before. Can you tell me about
     yourself?
   description: 
-  character: {fileID: 729234647}
+  character: {fileID: 901798795}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12302,7 +12364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 222
+  itemId: 354
   indentLevel: 0
   storyText: O-o-o-of course. Yes, I'll help however I can.
   description: 
@@ -12365,7 +12427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 263
+  itemId: 355
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 729234705}
@@ -12386,7 +12448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 262
+  itemId: 356
   indentLevel: 1
   text: Let's talk about something else...
   description: 
@@ -12447,7 +12509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 290
+  itemId: 357
   indentLevel: 0
   storyText: Louis arrived last, about ten minutes after the rest.
   description: 
@@ -12474,7 +12536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 289
+  itemId: 358
   indentLevel: 0
   storyText: At 9:07 we rang our way into the building, and found Bobby, Pauline,
     and Fiona already here. Tim arrived just as we did. We saw him as we went in
@@ -12503,7 +12565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 288
+  itemId: 359
   indentLevel: 0
   storyText: At least, that's what I thought. The parking around Mr. Martin's apartment
     was so atrocious we couldn't get parked until around 9:05.
@@ -12531,7 +12593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 287
+  itemId: 360
   indentLevel: 0
   storyText: You rejected, of course, and we made it to our car. Mr. Martin's house
     was only a five minute drive away.
@@ -12559,7 +12621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 286
+  itemId: 361
   indentLevel: 0
   storyText: Once we left the party we ran into you by the bottom of the stairwell,
     still dealing with the officer. We even offered to give you a ride.
@@ -12587,7 +12649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 285
+  itemId: 362
   indentLevel: 0
   storyText: We left the party about a quarter 'til nine.
   description: 
@@ -12614,7 +12676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 284
+  itemId: 363
   indentLevel: 0
   storyText: It seemed like we had worked things out, and we even shared a nice kiss
     away from prying eyes.
@@ -12642,7 +12704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 283
+  itemId: 364
   indentLevel: 0
   storyText: It was about 8:30 when I got back to the party. Marge told me about
     the after party at Mr. Martin's house, and I agreed to go.
@@ -12670,7 +12732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 282
+  itemId: 365
   indentLevel: 0
   storyText: Marge went back after Tim left, and I went out to the bottom of the
     stair way to get a smoke. Took me about twenty minutes to calm down, but once
@@ -12699,7 +12761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 281
+  itemId: 366
   indentLevel: 0
   storyText: We had one hell of an awkward conversation, then he passed us by. I'm
     not even sure he noticed we were fighting.
@@ -12727,7 +12789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 280
+  itemId: 367
   indentLevel: 0
   storyText: Just then, Mr.s Kane of all people appeared out on the stairway. He
     seemed like he was in quite a rush.
@@ -12755,7 +12817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 279
+  itemId: 368
   indentLevel: 0
   storyText: 'I don''t think we''ve ever done that...Anyways, She said I was only
     feeling ignored because I was too deep into my shell. I apologized and promised
@@ -12784,7 +12846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 278
+  itemId: 369
   indentLevel: 0
   storyText: I tried to let her know I was feeling ignored, but she quickly became
     upset. We spent about a minute shouting at each other.
@@ -12812,7 +12874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 277
+  itemId: 370
   indentLevel: 0
   storyText: It wasn't until 8:05 when she finally noticed me. We went out of the
     party and started talking in the stairwell.
@@ -12840,7 +12902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 276
+  itemId: 371
   indentLevel: 0
   storyText: I started to feel ignored after a while. Marge was spending time with
     everyone at the party except me. I tried to get her attention for almost an hour.
@@ -12868,7 +12930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 275
+  itemId: 372
   indentLevel: 0
   storyText: I mostly just hung around the refreshments and exchanged a few words
     with the other professors. I started wondering why I was there pretty quickly.
@@ -12896,7 +12958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 274
+  itemId: 373
   indentLevel: 0
   storyText: I arrived at the party around 7:00, right when it was starting. Marge
     came soon after and started chatting away with everyone.
@@ -12924,7 +12986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 273
+  itemId: 374
   indentLevel: 0
   storyText: 'The party was happening right in my department, so I just walked over
     once I got off work. '
@@ -12952,7 +13014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 272
+  itemId: 375
   indentLevel: 0
   storyText: She said it would be a good chance to ease up and blow off steam. FIgured
     she was right. She usually is.
@@ -12980,7 +13042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 271
+  itemId: 376
   indentLevel: 0
   storyText: Marge first talked me into going to the party before I left for work
     this morning. She seemed to really want to go, and while I didn't really want
@@ -13009,7 +13071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 270
+  itemId: 377
   indentLevel: 0
   storyText: Louis arrived last, about ten minutes after the rest.
   description: 
@@ -13036,7 +13098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 269
+  itemId: 378
   indentLevel: 0
   storyText: At 9:07 we rang our way into the building, and found Bobby, Pauline,
     and Fiona already here. Tim arrived just as we did. We saw him as we went in
@@ -13065,7 +13127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 268
+  itemId: 379
   indentLevel: 0
   storyText: We left the party about a quarter 'til nine.
   description: 
@@ -13092,7 +13154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 267
+  itemId: 380
   indentLevel: 0
   storyText: It seemed like we had worked things out, and we even shared a nice kiss
     away from prying eyes.
@@ -13120,7 +13182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 266
+  itemId: 381
   indentLevel: 0
   storyText: Marge went back after Tim left, and I went out to the bottom of the
     stair way to get a smoke. Took me about twenty minutes to calm down, but once
@@ -13149,7 +13211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 265
+  itemId: 382
   indentLevel: 0
   storyText: It was about 8:30 when I got back to the party. Marge told me about
     the after party at Mr. Martin's house, and I agreed to go.
@@ -13177,7 +13239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 264
+  itemId: 383
   indentLevel: 0
   storyText: We had one hell of an awkward conversation, then he passed us by. I'm
     not even sure he noticed we were fighting.
@@ -13205,7 +13267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 300
+  itemId: 384
   indentLevel: 0
   storyText: I'll need to speak with Margaret later. Get to the bottom of this.
   description: 
@@ -13232,7 +13294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 299
+  itemId: 385
   indentLevel: 0
   storyText: But I was expecting another teacher. Maybe Professor Nguyen. He's a
     handsome and energetic one. But Mr. Martin? My student?
@@ -13260,7 +13322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 298
+  itemId: 386
   indentLevel: 0
   storyText: I... I don't know what to do or say. I'm not sure if I should thank
     you for telling me or punch you across the room.
@@ -13473,18 +13535,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &729234750 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 865718390026965733, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 729234645}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729234646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &729234751
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13940,7 +13990,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -500.5
     y: 887.0513
-    width: 163.69861
+    width: 164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14467,6 +14517,60 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &729234772 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 865718390026965700, guid: 73e2e662b110a2d4eac907c4cc40f9b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 729234645}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729234646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &729234773
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729234646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 387
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 729234772}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &729234774
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729234646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 388
+  indentLevel: 1
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 729234772}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1001 &901798765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15685,6 +15789,11 @@ PrefabInstance:
       value: Your name is Margaret, right? I don't think we've met. Would you mind
         telling me about yourself?
       objectReference: {fileID: 0}
+    - target: {fileID: 3918521558545767382, guid: a277379d17f95e346b4b6998c37c31a1,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 901798795}
     - target: {fileID: 3918521558545767401, guid: a277379d17f95e346b4b6998c37c31a1,
         type: 3}
       propertyPath: storyText
@@ -17974,6 +18083,635 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253905090}
   m_CullTransparentMesh: 0
+--- !u!1001 &1309102145
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1400631730887489787, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970561, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: -325.63013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970561, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 672.0513
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970563, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970573, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I suppose you want to know what I know, then?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970574, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 901798795}
+    - target: {fileID: 2471502955507970574, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: The way I see it, you're the most suspicious person in the room, so
+        save the tears. They won't win you any points.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970578, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I can't say I know, but I know whatever it was, he didn't deserve it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970582, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: key
+      value: IntroducedToPauline
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970585, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970585, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 142.55319
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970585, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1309102148}
+    - target: {fileID: 2471502955507970585, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: blockName
+      value: Understanding
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970585, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: -345.91492
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970585, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 403.31006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970588, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: No doubt. No one deserves to get clubbed to death, even if they do cross
+        the wrong people.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970590, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970590, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 485.01782
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970590, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 136.1702
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970590, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: blockName
+      value: PureBusiness
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970592, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Sweet God, Rick...Who did you piss off to have this happen to you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970595, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: key
+      value: PaulineFirstConversation
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970599, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: text
+      value: He didn't deserve it...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970601, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970604, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970604, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 76.59574
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970604, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1309102149}
+    - target: {fileID: 2471502955507970636, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I still don't really. I saw her mooch on Rick, so I guess they're dating
+        or something, and she must be some kind of heiress with a dress like that,
+        but that's all I got on her.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970636, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970639, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I was introduced to Fiona McAllistar at tonight's party. I had never
+        heard of her before.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970639, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970649, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: key
+      value: PaulineHeardStory
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970664, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970664, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 774.0513
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970667, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970668, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Pauline, can you tell me about how you know everyone else?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970676, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970676, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 139
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970676, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1309102157}
+    - target: {fileID: 2471502955507970676, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1309102156}
+    - target: {fileID: 2471502955507970677, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970677, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 144
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970677, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1309102155}
+    - target: {fileID: 2471502955507970677, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1309102154}
+    - target: {fileID: 2471502955507970680, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Can you tell me about yourself again, Pauline?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970683, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Mmhmm. Figured you'd want to know.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970972, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I had the displeasure of growing up poor in a Chicago suburb full of
+        silver spoon types. DIdn't have many friends, but Rick was one of them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970973, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: key
+      value: PaulineLying
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970975, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I'm Pauline. Pauline Thompson. I'm work as an administrative assistant
+        at a consulting firm downtown.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970976, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Based on their names, I'd guess she's Harold's wife, but I don't know
+        a damn thing about her besides that. Sorry.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970979, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I was introduced to Margaret at the party at the same time I met Fiona.
+        Never heard of her before then.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970988, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: What, were you expecting more? Sorry.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970988, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970990, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Tim? Never heard of him before. The first time I met him is when he
+        walked into this apartment, and he's said bassically nothing ever since.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970992, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: 'Never met him. Looks like a creep, so I''d rather not have to, if you
+        catch my drift. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970995, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I don't even know who you're talking about. Is he that weird guy who
+        keeps following Fiona around?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471502955507970997, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: 'I talked to Louis a bit '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486103935830508407, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pauline Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657024, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Unfortunately, that's all there is to it. I'm just a girl trying to
+        make ends meet. Nothing else.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657025, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1309102150}
+    - target: {fileID: 3336934907061657025, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: I went through Northwestern after High School, albeit slowly, and I've
+        work this job ever since.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657027, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: No one around here seems to know the first thing about you. Mind introducing
+        yourself?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657027, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 901798795}
+    - target: {fileID: 3336934907061657028, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: key
+      value: PaulineMotive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657030, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Sure, but prepare to be disappointed.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657031, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: No problem.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657035, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: key
+      value: PaulineTrueStory
+      objectReference: {fileID: 0}
+    - target: {fileID: 3336934907061657052, guid: 3e6a8bd7a9759484095f4af97b94613c,
+        type: 3}
+      propertyPath: storyText
+      value: Don't worry, I'm not looking for any. I'm not who you're looking for,
+        and it won't be hard to prove it.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2471502955507970575, guid: 3e6a8bd7a9759484095f4af97b94613c, type: 3}
+    - {fileID: 3336934907061657026, guid: 3e6a8bd7a9759484095f4af97b94613c, type: 3}
+    - {fileID: 2471502955507970977, guid: 3e6a8bd7a9759484095f4af97b94613c, type: 3}
+    - {fileID: 3336934907061657038, guid: 3e6a8bd7a9759484095f4af97b94613c, type: 3}
+    - {fileID: 3336934907061657037, guid: 3e6a8bd7a9759484095f4af97b94613c, type: 3}
+    - {fileID: 2471502955507970991, guid: 3e6a8bd7a9759484095f4af97b94613c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 3e6a8bd7a9759484095f4af97b94613c, type: 3}
+--- !u!1 &1309102146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2471502955507971054, guid: 3e6a8bd7a9759484095f4af97b94613c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1309102145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1309102147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2471502955507970568, guid: 3e6a8bd7a9759484095f4af97b94613c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1309102145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1309102148
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 302
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1309102147}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1309102149
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 303
+  indentLevel: 1
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1309102147}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1309102150 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2471502953699649949, guid: 3e6a8bd7a9759484095f4af97b94613c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1309102145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1309102151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2471502955507970684, guid: 3e6a8bd7a9759484095f4af97b94613c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1309102145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1309102152 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2471502955507970587, guid: 3e6a8bd7a9759484095f4af97b94613c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1309102145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1309102153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2471502955507970601, guid: 3e6a8bd7a9759484095f4af97b94613c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1309102145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1309102154
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 307
+  indentLevel: 0
+  text: Let's talk about something else...
+  description: 
+  targetBlock: {fileID: 1309102152}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1309102155
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 306
+  indentLevel: 0
+  text: Let's talk about someone else...
+  description: 
+  targetBlock: {fileID: 1309102151}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1309102156
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 305
+  indentLevel: 0
+  text: Let's talk about something else...
+  description: 
+  targetBlock: {fileID: 1309102152}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1309102157
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309102146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 304
+  indentLevel: 0
+  text: Let's talk about someone else...
+  description: 
+  targetBlock: {fileID: 1309102151}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1341989391
 GameObject:
   m_ObjectHideFlags: 0
@@ -27231,7 +27969,7 @@ PrefabInstance:
     - target: {fileID: 2496238830265999433, guid: 3f21d379bf2db3440a14fc191bb4bbe6,
         type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2496238830265999433, guid: 3f21d379bf2db3440a14fc191bb4bbe6,
         type: 3}
@@ -27434,7 +28172,7 @@ PrefabInstance:
     - target: {fileID: 2496238830265999481, guid: 3f21d379bf2db3440a14fc191bb4bbe6,
         type: 3}
       propertyPath: nodeRect.width
-      value: 196
+      value: 191.86035
       objectReference: {fileID: 0}
     - target: {fileID: 2496238830265999481, guid: 3f21d379bf2db3440a14fc191bb4bbe6,
         type: 3}
@@ -27466,6 +28204,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[2]
       value: 
       objectReference: {fileID: 1804707668}
+    - target: {fileID: 2496238830265999481, guid: 3f21d379bf2db3440a14fc191bb4bbe6,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1804707737}
     - target: {fileID: 2496238830265999484, guid: 3f21d379bf2db3440a14fc191bb4bbe6,
         type: 3}
       propertyPath: portrait
@@ -28115,6 +28858,39 @@ PrefabInstance:
     - {fileID: 1804707709, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
     - {fileID: 1804707710, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
     - {fileID: 1804707711, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707725, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707726, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707732, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707671, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707689, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707690, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707691, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707692, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707693, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707694, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707695, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707696, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707697, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707698, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707699, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707700, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707701, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707702, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707703, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707715, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707716, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707717, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707718, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707719, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707720, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707721, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707722, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707723, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707729, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707731, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707733, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707734, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
+    - {fileID: 1804707735, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3f21d379bf2db3440a14fc191bb4bbe6, type: 3}
 --- !u!114 &1804707643 stripped
 MonoBehaviour:
@@ -28458,7 +29234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 281
+  itemId: 310
   indentLevel: 0
   storyText: You know everything else. We waited here for you, and then...well everything
     else happened.
@@ -28651,7 +29427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 298
+  itemId: 311
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 1804707659}
@@ -28672,7 +29448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 297
+  itemId: 312
   indentLevel: 0
   storyText: I've been able to keep the crew off his back until now, but I'm not
     risking my skin for that fool. After so many late payments they toid me to tell
@@ -28701,7 +29477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 296
+  itemId: 313
   indentLevel: 0
   storyText: So I gave the fool what he wanted, and he's done everything he could
     to prove me wrong for doing so since. He lost most of it almost immediately,
@@ -28730,7 +29506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 295
+  itemId: 314
   indentLevel: 0
   storyText: He asked me for a loan for ten grand. I told him the consequences of
     not paying back would be dire, but he didn't seem worried.
@@ -28758,7 +29534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 294
+  itemId: 315
   indentLevel: 0
   storyText: Somehow Rick let slip to Tim about the loan. No idea how, since he had
     to know how much trouble Tim would get into, what with poor impulse control and
@@ -28787,7 +29563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 293
+  itemId: 316
   indentLevel: 0
   storyText: A couple people you've never heard of. They were wise and paid it back
     quickly. One other person wasn't so wise, though.
@@ -28815,7 +29591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 292
+  itemId: 317
   indentLevel: 0
   storyText: So, who else have you loaned to?
   description: 
@@ -28842,7 +29618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 291
+  itemId: 318
   indentLevel: 0
   storyText: No, he isn't. But don't get the wrong idea, I'm not some kind of ATM.
     I can only set up the deals.
@@ -28870,7 +29646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 290
+  itemId: 319
   indentLevel: 0
   storyText: According to Harold, Rick isn't the only student you've loaned money
     to, is he?
@@ -28902,11 +29678,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -388.8568
     y: 873.2069
-    width: 111.643814
+    width: 112.29506
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 288
+  itemId: 309
   blockName: LouisLoans
   description: 
   eventHandler: {fileID: 0}
@@ -29086,7 +29862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 280
+  itemId: 320
   indentLevel: 0
   storyText: 'By the time I arrived it was 9:15 and everyone else was already here.
     Everyone but Rick, that is. '
@@ -29114,7 +29890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 279
+  itemId: 321
   indentLevel: 0
   storyText: 'Besides you, I was the last to arrive at the apartment, thanks to the
     parking issues. '
@@ -29142,7 +29918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 278
+  itemId: 322
   indentLevel: 0
   storyText: I headed over towards Rick's, but I had a horrible time trying to park.
     It wasn't until nearly 9:15 when I managed to even get parked and heard up.
@@ -29170,7 +29946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 277
+  itemId: 323
   indentLevel: 0
   storyText: I headed out from the party around 8:55. I saw you dealing with the
     police outside,since you were parked right by the exit form the College of Finance.
@@ -29198,7 +29974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 276
+  itemId: 324
   indentLevel: 0
   storyText: I stuck around until about 8:55 enjoying the free drinks. Things started
     dying down around then, though, so I took off.
@@ -29226,7 +30002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 275
+  itemId: 325
   indentLevel: 0
   storyText: He said he had some business to take care of, so I let him go and just
     mingled around the party. Didn't see anything weird after that.
@@ -29254,7 +30030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 274
+  itemId: 326
   indentLevel: 0
   storyText: It took me until about 8:10 to ditch Bobby and get back to Rick. He
     invited me over for his after party, and I accepted, of course.
@@ -29282,7 +30058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 273
+  itemId: 327
   indentLevel: 0
   storyText: No idea who he was talking about, since it seemed right around then
     that Rick had two girlfriends.
@@ -29310,7 +30086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 272
+  itemId: 328
   indentLevel: 0
   storyText: He practically accosted me by the drink table, and wouldn't shut up
     until I heard him out. He couldn't complain about how Rick stole his girlfriend.
@@ -29338,7 +30114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 271
+  itemId: 329
   indentLevel: 0
   storyText: They came back eventually, but she slipped off before we could be introduced.
     I tried to go ask Rick about her, but then Bobby got in the way.
@@ -29366,7 +30142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 270
+  itemId: 330
   indentLevel: 0
   storyText: Can't say i was surprised. It's no secret Rick was popular with the
     ladies. Figured she was his comare or something.
@@ -29394,7 +30170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 269
+  itemId: 331
   indentLevel: 0
   storyText: 'Up until 7:40 I was just mingling around the party. At 7:40 Pauline
     arrived and dragged Rick out the door into the stairway. '
@@ -29422,7 +30198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 268
+  itemId: 332
   indentLevel: 0
   storyText: Afterwards I met Tim by the drinks and had a lovely little business
     chat. I gave him some good advice, and it seemed like he was going to listen,
@@ -29451,7 +30227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 267
+  itemId: 333
   indentLevel: 0
   storyText: 'I arrived at the part fifteen minutes late, at around 7:15. First thing
     I did was greet Ricky and Fiona. '
@@ -29479,7 +30255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 266
+  itemId: 334
   indentLevel: 0
   storyText: Sort of lost time while working on business matters, however, and so
     I got going to the party a bit later than i'd have liked.
@@ -29695,6 +30471,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1804707714 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2496238830265999464, guid: 3f21d379bf2db3440a14fc191bb4bbe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1804707642}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804707644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1804707715
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -29707,7 +30495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 264
+  itemId: 335
   indentLevel: 0
   storyText: It took me until about 8:10 to ditch Bobby and get back to Rick. He
     invited me over for his after party, and I accepted, of course.
@@ -29735,7 +30523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 263
+  itemId: 336
   indentLevel: 0
   storyText: He said he had some business to take care of, so I let him go and just
     mingled around the party. Didn't see anything weird after that.
@@ -29763,7 +30551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 262
+  itemId: 337
   indentLevel: 0
   storyText: I stuck around until about 8:55 enjoying the free drinks. Things started
     dying down around then, though, so I took off.
@@ -29791,7 +30579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 261
+  itemId: 338
   indentLevel: 1
   text: Let's talk about something else...
   description: 
@@ -29816,7 +30604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 260
+  itemId: 339
   indentLevel: 0
   text: Let's talk about something else...
   description: 
@@ -29841,7 +30629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 259
+  itemId: 340
   indentLevel: 0
   text: Let's talk about someone else...
   description: 
@@ -29866,7 +30654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 258
+  itemId: 341
   indentLevel: 0
   text: Let's talk about something else...
   description: 
@@ -29891,7 +30679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 257
+  itemId: 342
   indentLevel: 0
   text: Let's talk about something else...
   description: 
@@ -29916,7 +30704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 256
+  itemId: 343
   indentLevel: 0
   storyText: I do quite a bit of trading and investing for my future employers already,
     so if you need any business advice, feel free to ask.
@@ -30010,7 +30798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 284
+  itemId: 344
   indentLevel: 0
   storyText: Besides, Rick's square with the crew. They don't have any reason to
     want his head. And you think if they did, you'd ever find the body?
@@ -30038,7 +30826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 283
+  itemId: 345
   indentLevel: 0
   storyText: 'if he can''t, he''ll probably be fish food, if you catch my drift. '
   description: 
@@ -30065,7 +30853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 282
+  itemId: 346
   indentLevel: 0
   anyVar:
     variable: {fileID: 1804707732}
@@ -30232,7 +31020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 287
+  itemId: 347
   indentLevel: 0
   storyText: Then you might want to find out.
   description: 
@@ -30259,7 +31047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 286
+  itemId: 348
   indentLevel: 0
   storyText: No idea.
   description: 
@@ -30286,7 +31074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 285
+  itemId: 349
   indentLevel: 0
   storyText: How's Rick end up with that note, anyways? Did Tim go to him for help,
     or something?
@@ -30302,6 +31090,27 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1804707737
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804707644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 350
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1804707714}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &1849721919
 GameObject:
   m_ObjectHideFlags: 0
@@ -30538,7 +31347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 729234750}
+  selectedFlowchart: {fileID: 1309102153}
 --- !u!4 &2108604104
 Transform:
   m_ObjectHideFlags: 1
