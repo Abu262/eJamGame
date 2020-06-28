@@ -4687,6 +4687,26 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &579256323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152959169622466608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ff0f540016ff64ab1556db6fe1e10f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 348
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  replacedStage: {fileID: 0}
+  useDefaultSettings: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
 --- !u!114 &3768092573547258490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4716,26 +4736,6 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &579256323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8152959169622466608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1ff0f540016ff64ab1556db6fe1e10f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 348
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  replacedStage: {fileID: 0}
-  useDefaultSettings: 1
-  fadeDuration: 0
   waitUntilFinished: 0
 --- !u!1001 &799442608067681626
 PrefabInstance:

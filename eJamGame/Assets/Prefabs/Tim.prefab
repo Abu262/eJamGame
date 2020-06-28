@@ -3106,8 +3106,7 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 801819379263134520, guid: 7340936ca1fe0c14e88d905904049120,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 3707489051632456635, guid: a8d464f18c0236349beaaf8a94282b54,
         type: 3}
       propertyPath: commandList.Array.data[9]
