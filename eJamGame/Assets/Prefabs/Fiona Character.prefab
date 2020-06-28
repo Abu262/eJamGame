@@ -312,11 +312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 399.32642, y: -278.25967}
+  scrollPos: {x: 507.47876, y: -491.77856}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 385
-  zoom: 0.46000046
+  zoom: 0.64000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -324,7 +324,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8801667058441816162}
+  - {fileID: 8801667058441816182}
   selectedCommands: []
   variables:
   - {fileID: 8801667058441816169}
@@ -364,7 +364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87
     y: 402.05127
-    width: 76.08693
+    width: 76.249985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -86.973785
     y: 464.1851
-    width: 74.3478
+    width: 74.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -842,7 +842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146
     y: 637.0513
-    width: 189.1303
+    width: 194.9999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -877,7 +877,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -311.72726
     y: 429.73306
-    width: 110.86951
+    width: 112.499954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -923,7 +923,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -143
     y: 541.0513
-    width: 185.65204
+    width: 187.49991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1020,7 +1020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -513.06323
     y: 639.4564
-    width: 147.3912
+    width: 151.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1052,7 +1052,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -323
     y: 613.0513
-    width: 133.47818
+    width: 133.74994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1081,7 +1081,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -322
     y: 675.0513
-    width: 138.69556
+    width: 142.49994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1513,7 +1513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -292
     y: 756.0513
-    width: 114.34776
+    width: 114.999954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1556,7 +1556,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28
     y: 907.3115
-    width: 152.60858
+    width: 154.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1590,7 +1590,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163
     y: 634.0513
-    width: 156.08685
+    width: 158.74992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1741,7 +1741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132
     y: 395.05127
-    width: 100.43473
+    width: 102.49997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1785,7 +1785,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130
     y: 566.0513
-    width: 133.47818
+    width: 136.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1816,7 +1816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299
     y: 565.0513
-    width: 126.52166
+    width: 129.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1849,7 +1849,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87
     y: 691.0513
-    width: 133.47818
+    width: 136.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1881,7 +1881,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258
     y: 688.0513
-    width: 145.65207
+    width: 151.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1913,7 +1913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 197
     y: 775.0513
-    width: 119.56515
+    width: 118.749954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1944,7 +1944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 501.05127
-    width: 140.4347
+    width: 141.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1977,7 +1977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 629.0513
-    width: 135.21732
+    width: 136.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2267,7 +2267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -536
     y: 756.337
-    width: 133.47818
+    width: 136.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2299,7 +2299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -486
     y: 822.0513
-    width: 143.91295
+    width: 142.49994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2337,7 +2337,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -309.47363
     y: 870.1039
-    width: 154.34772
+    width: 157.49992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2370,7 +2370,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -198
     y: 966.0513
-    width: 163.04337
+    width: 163.74992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2433,7 +2433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -60
     y: 1020.3171
-    width: 147.3912
+    width: 149.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2464,7 +2464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 118
     y: 1022.0513
-    width: 110.86951
+    width: 112.499954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2500,7 +2500,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196
     y: 954.0513
-    width: 136.95644
+    width: 138.74994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2530,7 +2530,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 194
     y: 865.0513
-    width: 138.69556
+    width: 141.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3714,7 +3714,7 @@ MonoBehaviour:
   itemId: 129
   indentLevel: 0
   storyText: He's in the same PhD program Ricky is in, but...Well Ricky never had
-    great things to say about him. Siad it would probably be a miracle if he made
+    great things to say about him. Said it would probably be a miracle if he made
     it out of the program.
   description: 
   character: {fileID: 8801667058467154767}
@@ -4879,7 +4879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 172
   indentLevel: 0
-  storyText: 'Around 8:30 Bobby burst into the party, and I...just wast not in the
+  storyText: 'Around 8:30 Bobby burst into the party, and I...just was not in the
     mood to deal with him right then. '
   description: 
   character: {fileID: 8801667058467154767}
@@ -4991,7 +4991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 176
   indentLevel: 0
-  storyText: 'After that Ricky announced the after party at his houde, and mingled
+  storyText: 'After that Ricky announced the after party at his house, and mingled
     and started inviting people. '
   description: 
   character: {fileID: 8801667058467154767}
@@ -5098,7 +5098,7 @@ MonoBehaviour:
   itemId: 180
   indentLevel: 0
   storyText: Once I got in my car, I headed over to Ricky's. Took about 5 minutes.
-    Thankfully i parked in only anotther 5, since someone pulled out right as I was
+    Thankfully I parked in only another 5, since someone pulled out right as I was
     driving by.
   description: 
   character: {fileID: 8801667058467154767}
@@ -5127,7 +5127,7 @@ MonoBehaviour:
   itemId: 181
   indentLevel: 0
   storyText: I got to the apartment just before 9:00 and buzzed in. I expected to
-    have RIcky let me in, but instead it was Bobby, who had somehow beat us all there.
+    have Ricky let me in, but instead it was Bobby, who had somehow beat us all there.
   description: 
   character: {fileID: 8801667058467154767}
   portrait: {fileID: 0}
@@ -6371,7 +6371,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -310.25653
     y: 486.66962
-    width: 112.60863
+    width: 107.49996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6782,7 +6782,7 @@ MonoBehaviour:
   itemId: 238
   indentLevel: 0
   storyText: After a while they came back and Ricky said she was a friend from high
-    school. Then she disappeard for a while Ricky and I chatted and he invited everyone
+    school. Then she disappeared for a while Ricky and I chatted and he invited everyone
     over for the after party.
   description: 
   character: {fileID: 8801667058467154767}
