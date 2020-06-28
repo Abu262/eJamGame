@@ -9,7 +9,7 @@ public class PlayerControls : MonoBehaviour
 
     //movement variables
     public float speed = 12f;
-    public float gravity = -9.81f;
+    public float gravity = 0f;
 
 
     //falling and jumping, might not need this
@@ -70,7 +70,7 @@ public class PlayerControls : MonoBehaviour
             //movement controls
             if (isGrounded && velocity.y < 0)
             {
-                velocity.y = -2f;
+                //velocity.y = -2f;
             }
 
             float x = Input.GetAxis("Horizontal");
@@ -78,7 +78,7 @@ public class PlayerControls : MonoBehaviour
 
             Vector3 move = transform.right * x + transform.forward * z;
             controller.Move(move * speed * Time.deltaTime);
-            velocity.y += gravity + Time.deltaTime;
+            //velocity.y += gravity + Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
 
             if (isGrounded)
