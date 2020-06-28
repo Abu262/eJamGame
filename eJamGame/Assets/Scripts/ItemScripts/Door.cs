@@ -2,29 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
-
+using UnityEngine.SceneManagement;
 public class Door : ItemClass
 {
-    public Flowchart flowchart;
-    public Flowchart Rickyflowchart;
-    public Flowchart Bobbyflowchart;
-    public Flowchart Fionaflowchart;
-    public Flowchart Haroldflowchart;
-    public Flowchart Louisflowchart;
-    public Flowchart Margaretflowchart;
-    public Flowchart Paulineflowchart;
-    int RickyID = 11;
-    int BobbyID = 12;
-    int FionaID = 13;
-    int HaroldID = 14;
-    int LouisID = 15;
-    int MargaretID = 16;
-    int PaulineID = 17;
 
+    public Flowchart flowchart;
     // Start is called before the first frame update
     void Start()
     {
-        name = "Door To Bedroom";
+        name = "Condemn a Suspect";
         ID = 10;
 
     }
@@ -49,43 +35,17 @@ public class Door : ItemClass
         }
 
 
-        if (flowchart.GetIntegerVariable("myInt") == RickyID)
+        if (flowchart.GetIntegerVariable("myInt") == 1)
         {
-            Rickyflowchart.ExecuteBlock("Start");
+            SceneManager.LoadScene(2);
 
         }
-        else if (flowchart.GetIntegerVariable("myInt") == BobbyID)
+        else if (flowchart.GetIntegerVariable("myInt") == 2)
         {
-            Bobbyflowchart.ExecuteBlock("Start");
-        }
-        else if (flowchart.GetIntegerVariable("myInt") == FionaID)
-        {
-            Fionaflowchart.ExecuteBlock("Start");
-        }
-        else if (flowchart.GetIntegerVariable("myInt") == HaroldID)
-        {
-            Haroldflowchart.ExecuteBlock("Start");
-        }
-        else if (flowchart.GetIntegerVariable("myInt") == LouisID)
-        {
-            Louisflowchart.ExecuteBlock("Start");
-        }
-        else if (flowchart.GetIntegerVariable("myInt") == MargaretID)
-        {
-            Margaretflowchart.ExecuteBlock("Start");
-        }
-        else if (flowchart.GetIntegerVariable("myInt") == PaulineID)
-        {
-            Paulineflowchart.ExecuteBlock("Start");
+            SceneManager.LoadScene(3);
         }
 
 
-        while (flowchart.GetIntegerVariable("myInt") != 0)
-        {
-            yield return null;
-        }
-
-        yield return new WaitForSeconds(0.1f);
         flowchart.SetIntegerVariable("myInt", 0);
         yield return null;
     }
