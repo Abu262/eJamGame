@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -9019,11 +9019,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 336402892, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
-      propertyPath: storyText
-      value: '{i}Tim enters the room pale as a ghost. He''s clearly terrified by
-        what''s gone on tonight. He seems ready to snap at any moment.{/i}'
-      objectReference: {fileID: 0}
     - target: {fileID: 336402901, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
       propertyPath: character
       value: 
@@ -9122,11 +9117,6 @@ PrefabInstance:
       propertyPath: selectedCommands.Array.size
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3707489051632456635, guid: a8d464f18c0236349beaaf8a94282b54,
-        type: 3}
-      propertyPath: commandList.Array.size
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 3707489051632456637, guid: a8d464f18c0236349beaaf8a94282b54,
         type: 3}
       propertyPath: toPosition
@@ -9137,8 +9127,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tim Character
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 336402901, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d464f18c0236349beaaf8a94282b54, type: 3}
 --- !u!114 &336402857 stripped
 MonoBehaviour:
