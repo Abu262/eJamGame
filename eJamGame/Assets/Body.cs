@@ -9,7 +9,7 @@ public class Body : ItemClass
     // Start is called before the first frame update
     void Start()
     {
-        name = "Tim's Body";
+        name = "Ricky's Body";
         ID = 8;
     }
 
